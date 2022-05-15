@@ -7,14 +7,5 @@
 	inhand_icon_state = "armoralt"
 	blood_overlay_type = "armor"
 	slowdown = 0.15
+	armor = list(MELEE = 20, BULLET = 5, LASER = 5, ENERGY = 5, BOMB = 10, BIO = 100, RAD = 15, FIRE = 60, ACID = 30, WOUND = 10)
 
-//NCR
-/obj/item/clothing/suit/armor/vest/medium/ncr
-	name = "ncr infantry vest"
-	desc = "An armored vest worn by the NCR."
-	icon_state = "ncr_infantry_vest"
-
-/obj/item/clothing/suit/armor/vest/medium/ncr/cpl
-	name = "ncr infantry vest"
-	desc = "A slim Type 1-S armored vest that provides decent protection against most types of damage, created and used by Cybersun."
-	icon_state = "ncr_infantry_vest"
