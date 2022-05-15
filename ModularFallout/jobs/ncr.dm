@@ -1,45 +1,17 @@
 /datum/job/ncr
-	title = "NT Remnant Auxiliary"
-	department_head = list("NT Remnant Commander")
+	title = "NCR Trooper"
+	department_head = list("NCR Captain")
 	faction = "Station"
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "NT Remnant Commander"
+	supervisors = "NCR Captain"
 	selection_color = "#134975"
-	maptype = "kepler-ice"
+	maptype = "yuma"
 
-	outfit = /datum/outfit/job/remnant
+	outfit = /datum/outfit/job/ncr
 
-	access = list(ACCESS_CENT_GENERAL)
-	minimal_access = list(ACCESS_CENT_GENERAL)
+	access = list(ACCESS_NCR)
+	minimal_access = list(ACCESS_NCR)
 	paycheck = PAYCHECK_MEDIUM
-	display_order = JOB_DISPLAY_ORDER_FACTION1_DOC
-
-
-/datum/job/remnant/pvt
-	title = "NT Remnant Cadet"
-	total_positions = 2
-	spawn_positions = 2
 	display_order = JOB_DISPLAY_ORDER_FACTION1_PVT
 
-
-/datum/job/remnant/cpl
-	title = "NT Remnant Corporal"
-	display_order = JOB_DISPLAY_ORDER_FACTION1_LT
-	access = list(ACCESS_CENT_GENERAL, ACCESS_CENT_SPECOPS)
-	minimal_access = list(ACCESS_CENT_GENERAL, ACCESS_CENT_SPECOPS)
-
-
-/datum/job/remnant/lt
-	title = "NT Remnant Commander"
-	department_head = list("No one")
-	supervisors = "No one"
-	selection_color = "#073052"
-
-	outfit = /datum/outfit/job/remnant/lt
-
-	access = list(ACCESS_CENT_GENERAL, ACCESS_CENT_CAPTAIN, ACCESS_CENT_SPECOPS)
-	minimal_access = list(ACCESS_CENT_GENERAL, ACCESS_CENT_CAPTAIN, ACCESS_CENT_SPECOPS)
-	paycheck = PAYCHECK_COMMAND
-
-	display_order = JOB_DISPLAY_ORDER_FACTION1_LEADER
