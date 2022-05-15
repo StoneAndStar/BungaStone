@@ -4,6 +4,7 @@
 	name = "NCR Private"
 	id = /obj/item/card/id
 	uniform = /obj/item/clothing/under/fallout/ncr
+	uniform = /obj/item/clothing/under/fallout/ncr
 	ears = /obj/item/radio/headset
 	belt = null
 
@@ -15,7 +16,9 @@
 
 /datum/outfit/job/ncr/lt
 	name = "NCR Lieutenant"
+	uniform = /obj/item/clothing/under/fallout/ncr/officer
 
 /datum/outfit/job/ncr/cpt
 	name = "NCR Captain"
+	uniform = /obj/item/clothing/under/fallout/ncr/officer
 
