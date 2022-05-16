@@ -1,15 +1,19 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"cb" = (
+/obj/effect/landmark/latejoin,
+/turf/open/floor/plating/beach/sand,
+/area/fallout/yuma)
 "AA" = (
 /obj/effect/landmark/start/new_player,
 /turf/open/floor/plating/beach/sand,
-/area/space)
+/area/fallout/yuma)
 "YB" = (
 /obj/effect/landmark/observer_start,
 /turf/open/floor/plating/beach/sand,
-/area/space)
+/area/fallout/yuma)
 "ZZ" = (
 /turf/open/floor/plating/beach/sand,
-/area/space)
+/area/fallout/yuma)
 
 (1,1,1) = {"
 ZZ
@@ -27863,9 +27867,9 @@ ZZ
 ZZ
 ZZ
 AA
-ZZ
-ZZ
-ZZ
+cb
+cb
+cb
 ZZ
 ZZ
 ZZ
@@ -28120,9 +28124,9 @@ ZZ
 ZZ
 ZZ
 YB
-ZZ
-ZZ
-ZZ
+cb
+cb
+cb
 ZZ
 ZZ
 ZZ

@@ -121,10 +121,11 @@ GLOBAL_LIST_INIT(logistics_positions, list(
 	"Miner",
 	"Mechanic"))
 
+/*
 GLOBAL_LIST_INIT(police_positions, list(
 	"Military Warden",
 	"Military Police"))
-
+*/
 
 //NT Blacksite
 GLOBAL_LIST_INIT(ntmarines_positions, list(

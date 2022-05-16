@@ -41,8 +41,6 @@
 	STR.max_w_class = WEIGHT_CLASS_NORMAL
 	STR.set_holdable(list(
 		/obj/item/gun/ballistic/automatic/pistol,
-		/obj/item/ammo_box/magazine/m9mm, // Pistol magazines.
-		/obj/item/ammo_box/magazine/m9mm_aps,
 		/obj/item/ammo_box/magazine/m45,
 		/obj/item/ammo_box/magazine/m50,
 		/obj/item/gun/ballistic/revolver,
@@ -51,7 +49,7 @@
 		/obj/item/ammo_box/a762,
 		/obj/item/gun/ballistic/automatic/toy/pistol,
 		/obj/item/ammo_box/magazine/toy/pistol,
-		/obj/item/gun/energy/e_gun/mini,	
+		/obj/item/gun/energy/e_gun/mini,
 		/obj/item/gun/energy/disabler,
 		/obj/item/gun/energy/dueling
 		))
@@ -101,7 +99,6 @@
 	STR.set_holdable(list(
 		/obj/item/gun/ballistic/automatic/pistol,
 		/obj/item/ammo_box/magazine/m9mm,
-		/obj/item/ammo_box/magazine/m9mm_aps,
 		/obj/item/ammo_box/magazine/m45,
 		/obj/item/ammo_box/magazine/m50,
 		/obj/item/gun/ballistic/revolver,

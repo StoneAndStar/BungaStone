@@ -26,6 +26,12 @@
 	desc = "A combat medic helmet."
 	icon_state = "ncr_old_med"
 
+/obj/item/clothing/head/fallout/ncr/ht
+	name = "ncr salvaged power armor helmet"
+	desc = "A salvaged t45b power armor helmet"
+	icon_state = "t45bhelmet_ncr"
+	armor = list(MELEE = 80, BULLET = 80, LASER = 80, ENERGY = 45, BOMB = 10, BIO = 35, RAD = 50, FIRE = 30, ACID = 50, WOUND = 20)
+
 //Berets
 /obj/item/clothing/head/fallout/ncr/ncrofficer
 	name = "officer beret"
@@ -48,3 +54,4 @@
 	name = "veteran ranger helmet"
 	desc = "The Veteran's helmet."
 	icon_state = "ranger"
+

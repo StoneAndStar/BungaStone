@@ -5,4 +5,8 @@
 	icon = 'ModularFallout/!icons/clothing/suits_utility.dmi'
 	icon_state = "vest_utility"
 
+//I want Followers SCI to have their own named coat
+/obj/item/clothing/suit/toggle/labcoat/genetics/follower
+	name = "followers scientist labcoat"
+
 

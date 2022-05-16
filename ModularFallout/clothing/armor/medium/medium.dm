@@ -7,5 +7,5 @@
 	inhand_icon_state = "armoralt"
 	blood_overlay_type = "armor"
 	slowdown = 0.15
-	armor = list(MELEE = 20, BULLET = 5, LASER = 5, ENERGY = 5, BOMB = 10, BIO = 100, RAD = 15, FIRE = 60, ACID = 30, WOUND = 10)
+	armor = list(MELEE = 30, BULLET = 30, LASER = 30, ENERGY = 15, BOMB = 10, BIO = 100, RAD = 15, FIRE = 60, ACID = 30, WOUND = 10)
 

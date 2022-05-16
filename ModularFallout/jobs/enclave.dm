@@ -10,7 +10,57 @@
 
 	outfit = /datum/outfit/job/enclave
 
-	access = list(ACCESS_NCR, ACCESS_NCRARMORY)
-	minimal_access = list(ACCESS_NCR, ACCESS_NCRARMORY)
+	access = list(ACCESS_MILITARY)
+	minimal_access = list(ACCESS_MILITARY)
 	paycheck = PAYCHECK_MEDIUM
-	display_order = JOB_DISPLAY_ORDER_NCRPRIVATE
+	display_order = JOB_DISPLAY_ORDER_ENCLAVEPVT
+
+
+/datum/job/enclave/sgt
+	title = "Enclave Sergeant"
+	total_positions = 2
+	spawn_positions = 2
+	display_order = JOB_DISPLAY_ORDER_ENCLAVESGT
+	outfit = /datum/outfit/job/enclave/sgt
+
+/datum/job/enclave/gun
+	title = "Enclave Gny Sergeant"
+	total_positions = 1
+	spawn_positions = 1
+	display_order = JOB_DISPLAY_ORDER_ENCLAVEGUN
+	outfit = /datum/outfit/job/enclave/gun
+
+
+/datum/job/enclave/lt
+	title = "Enclave Lieutenant"
+	total_positions = 1
+	spawn_positions = 1
+	display_order = JOB_DISPLAY_ORDER_ENCLAVELT
+	outfit = /datum/outfit/job/enclave/lt
+
+
+//Noncombatant
+/datum/job/enclave/med
+	title = "Enclave Medic"
+	total_positions = 1
+	spawn_positions = 1
+	display_order = JOB_DISPLAY_ORDER_ENCLAVESPEC
+	outfit = /datum/outfit/job/enclave/med
+
+
+/datum/job/enclave/sap
+	title = "Enclave Sapper"
+	total_positions = 1
+	spawn_positions = 1
+	display_order = JOB_DISPLAY_ORDER_ENCLAVESPEC
+	outfit = /datum/outfit/job/enclave/sap
+
+
+/datum/job/enclave/sci
+	title = "Enclave Scientist"
+	total_positions = 2
+	spawn_positions = 2
+	display_order = JOB_DISPLAY_ORDER_ENCLAVESCI
+	outfit = /datum/outfit/job/enclave/sci
+
+

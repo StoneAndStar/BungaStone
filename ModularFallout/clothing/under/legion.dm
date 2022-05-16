@@ -1,7 +1,6 @@
 /obj/item/clothing/under/fallout/legion
 	name = "legionary fatigues"
 	desc = "A black learthery skirt and a thick long sleeve cotton shirt."
-	var/sleeves_adjusted = 0
 	worn_icon = 'ModularFallout/!icons/onmob/clothes/uniforms.dmi'
 	icon = 'ModularFallout/!icons/clothing/uniforms.dmi'
 	lefthand_file = 'ModularFallout/!icons/mob/inhands/clothing_lefthand.dmi'

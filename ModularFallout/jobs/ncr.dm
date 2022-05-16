@@ -31,6 +31,12 @@
 	display_order = JOB_DISPLAY_ORDER_NCRSERGEANT
 	outfit = /datum/outfit/job/ncr/sgt
 
+/datum/job/ncr/ht
+	title = "NCR Heavy Trooper"
+	total_positions = 1
+	spawn_positions = 1
+	display_order = JOB_DISPLAY_ORDER_NCRSERGEANT
+	outfit = /datum/outfit/job/ncr/ht
 
 /datum/job/ncr/lt
 	title = "NCR Lieutenant"

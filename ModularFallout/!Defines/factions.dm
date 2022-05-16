@@ -4,4 +4,5 @@
 #define EXP_TYPE_ENCLAVE		"Enclave"
 #define EXP_TYPE_FOA			"FOA"
 #define EXP_TYPE_TOWN			"Town"
+#define EXP_TYPE_POLICE			"Police"
 #define EXP_TYPE_WASTELAND		"Wasteland"

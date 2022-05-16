@@ -417,7 +417,7 @@
 	department_categories = list("Command", "Service", "Supply", "Engineering", "Medical", "Science", "Security", "Silicon")
 
 	if(SSmaptype.maptype == "yuma")
-		department_categories = list("NCR", "BOS", "Legion", "Enclave", "FOA", "Town", "Wasteland")
+		department_categories = list("NCR", "BOS", "Legion", "Enclave", "FOA", "Town", "Police", "Wasteland")
 
 
 
