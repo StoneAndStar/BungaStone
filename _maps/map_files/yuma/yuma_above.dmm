@@ -1,6 +1,10 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "AA" = (
-/obj/effect/landmark/carpspawn,
+/obj/effect/landmark/start/new_player,
+/turf/open/floor/plating/beach/sand,
+/area/space)
+"YB" = (
+/obj/effect/landmark/observer_start,
 /turf/open/floor/plating/beach/sand,
 /area/space)
 "ZZ" = (
@@ -27858,7 +27862,7 @@ ZZ
 ZZ
 ZZ
 ZZ
-ZZ
+AA
 ZZ
 ZZ
 ZZ
@@ -28115,7 +28119,7 @@ ZZ
 ZZ
 ZZ
 ZZ
-ZZ
+YB
 ZZ
 ZZ
 ZZ
@@ -53599,7 +53603,7 @@ ZZ
 ZZ
 ZZ
 ZZ
-AA
+ZZ
 ZZ
 ZZ
 ZZ
