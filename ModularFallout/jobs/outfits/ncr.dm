@@ -65,7 +65,7 @@
 /datum/outfit/job/ncr/mo
 	name = "NCR Medical Officer"
 	uniform = /obj/item/clothing/under/fallout/ncr/officer
-	suit = /obj/item/clothing/suit/toggle/labcoat
+	suit = /obj/item/clothing/suit/neocoat/trench
 	head = /obj/item/clothing/head/beret/med
 	belt = /obj/item/storage/belt/medical
 	glasses = /obj/item/clothing/glasses/hud/health
