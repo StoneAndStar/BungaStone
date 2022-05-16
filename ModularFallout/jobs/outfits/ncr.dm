@@ -6,7 +6,7 @@
 	suit = /obj/item/clothing/suit/armor/vest/medium/ncr
 	ears = /obj/item/radio/headset
 	gloves = /obj/item/clothing/gloves/color/black
-	belt = null
+//	belt = /obj/item/storage/belt/military/assault/ncr
 
 /datum/outfit/job/ncr/cpl
 	name = "NCR Corporal"
@@ -33,8 +33,9 @@
 /datum/outfit/job/ncr/lo
 	name = "NCR Logistics Officer"
 	uniform = /obj/item/clothing/under/fallout/ncr/officer
-	suit = /obj/item/clothing/suit/armor/vest/medium/ncr/cpt
+	suit = /obj/item/clothing/suit/fallout/utility
 	head = 	/obj/item/clothing/head/fallout/hat/sapper
+	glasses	= /obj/item/clothing/glasses/welding
 
 /datum/outfit/job/ncr/mo
 	name = "NCR Medical Officer"

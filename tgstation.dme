@@ -3659,6 +3659,7 @@
 #include "ModularFallout\!Defines\access.dm"
 #include "ModularFallout\!Defines\jobs.dm"
 #include "ModularFallout\areas\yuma.dm"
+#include "ModularFallout\clothing\armor\misc.dm"
 #include "ModularFallout\clothing\armor\light\light.dm"
 #include "ModularFallout\clothing\armor\medium\medium.dm"
 #include "ModularFallout\clothing\armor\medium\ncr.dm"
