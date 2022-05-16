@@ -13,5 +13,5 @@
 	flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH
 	strip_delay = 80
 	equip_delay_other = 60
-	armor = list(MELEE = 80, BULLET = 80, LASER = 80, ENERGY = 60, BOMB = 100, BIO = 100, RAD = 15, FIRE = 60, ACID = 30, WOUND = 10)
+	armor = list(MELEE = 70, BULLET = 70, LASER = 70, ENERGY = 60, BOMB = 100, BIO = 100, RAD = 15, FIRE = 60, ACID = 30, WOUND = 10)
 

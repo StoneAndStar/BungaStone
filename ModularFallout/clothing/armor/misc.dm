@@ -9,4 +9,16 @@
 /obj/item/clothing/suit/toggle/labcoat/genetics/follower
 	name = "followers scientist labcoat"
 
+//Generic Scribe shit
+/obj/item/clothing/suit/fallout/utility/scribe
+	name = "scribe robes"
+	desc = "Robes used by brotherhood scribes."
+	icon_state = "scribe"
 
+/obj/item/clothing/suit/fallout/utility/scribe/senior
+	name = "senior scribe robes"
+	icon_state = "seniorscribe"
+
+/obj/item/clothing/suit/fallout/utility/scribe/head
+	name = "head scribe robes"
+	icon_state = "headscribe"

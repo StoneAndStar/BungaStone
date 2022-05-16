@@ -4,8 +4,11 @@ GLOBAL_LIST_INIT(command_positions,list(
 	"Centurion",
 	"Head Paladin",
 	"Head Knight",
+	"Head Scribe",
 	"Enclave Lieutenant",
-	"Followers Administrator",
+	"Followers Admin",
+	"Mayor",
+	"Chief Of Police",
 
 ))
 
@@ -36,9 +39,11 @@ GLOBAL_LIST_INIT(legion_positions, list(
 	"Veteran Legionnaire",
 	"Prime Legionnaire",
 	"Recruit Legionnaire",
+	"Legion Venator",
+	"Legion Explorer",
 	"Legion Slavemaster",
-	"Legion Slave",
-	"Legion Auxilia"))
+	"Legion Auxilia",
+	"Legion Slave"))
 
 
 GLOBAL_LIST_INIT(brotherhood_positions, list(
@@ -68,7 +73,7 @@ GLOBAL_LIST_INIT(enclave_positions, list(
 
 
 GLOBAL_LIST_INIT(followers_positions, list(
-	"Followers Administrator",
+	"Followers Admin",
 	"Followers Doctor",
 	"Followers Scientist",
 	"Followers Volunteer",
@@ -86,7 +91,7 @@ GLOBAL_LIST_INIT(town_positions, list(
 
 GLOBAL_LIST_INIT(police_positions, list(
 	"Chief Of Police",
-	"Office",
+	"Officer",
 	"Deputy"))
 
 GLOBAL_LIST_INIT(wasteland_positions, list(

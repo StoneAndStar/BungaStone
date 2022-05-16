@@ -10,8 +10,8 @@
 
 	outfit = /datum/outfit/job/enclave
 
-	access = list(ACCESS_MILITARY)
-	minimal_access = list(ACCESS_MILITARY)
+	access = list(ACCESS_ENCLAVE)
+	minimal_access = list(ACCESS_ENCLAVE)
 	paycheck = PAYCHECK_MEDIUM
 	display_order = JOB_DISPLAY_ORDER_ENCLAVEPVT
 
@@ -33,6 +33,7 @@
 
 /datum/job/enclave/lt
 	title = "Enclave Lieutenant"
+	selection_color = "#252525"
 	total_positions = 1
 	spawn_positions = 1
 	display_order = JOB_DISPLAY_ORDER_ENCLAVELT

@@ -18,3 +18,7 @@
 #define ACCESS_NCROFFDUTY	132 //general NCR access
 #define ACCESS_CLINIC		133 //Oasis clinic access
 #define ACCESS_ENCLAVE 		134 //enclave minibunker
+
+
+#define ACCESS_POLICE		135 //Oasis police access
+#define ACCESS_BROTHERHOOD 	136

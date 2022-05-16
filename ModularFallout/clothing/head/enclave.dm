@@ -19,3 +19,8 @@
 	icon = 'ModularFallout/!icons/clothing/hats.dmi'
 	icon_state = "envirohead"
 
+/obj/item/clothing/head/fallout/enclave/officer
+	name = "us officer beret"
+	desc = "the enclave lieutenant's beret."
+	icon_state = "army_beret"
+	armor = list(MELEE = 35, BULLET = 25, LASER = 35, ENERGY = 25, BOMB = 10, BIO = 35, RAD = 50, FIRE = 30, ACID = 50, WOUND = 20)

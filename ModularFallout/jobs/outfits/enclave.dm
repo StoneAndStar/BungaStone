@@ -27,8 +27,8 @@
 
 /datum/outfit/job/enclave/lt
 	name = "Enclave Lieutenant"
-	suit = /obj/item/clothing/suit/armor/vest/power/advanced
-	head = /obj/item/clothing/head/fallout/enclave/advanced
+	suit = /obj/item/clothing/suit/armor/vest/medium/enclave
+	head = /obj/item/clothing/head/fallout/enclave/officer
 
 
 /datum/outfit/job/enclave/sap
@@ -36,16 +36,17 @@
 	head = null
 	glasses	= /obj/item/clothing/glasses/welding
 
-/datum/outfit/job/enclave/medic
+
+/datum/outfit/job/enclave/med
 	name = "Enclave Medic"
 	glasses	= /obj/item/clothing/glasses/hud/health
 	head = /obj/item/clothing/head/beret/med
 	uniform = /obj/item/clothing/under/fallout/enclave/sci
+
 
 /datum/outfit/job/enclave/sci
 	name = "Enclave Scientist"
 	glasses	= /obj/item/clothing/glasses/hud/health
 	head = /obj/item/clothing/head/bio_hood/enclave
 	suit = /obj/item/clothing/suit/bio_suit
-	head = /obj/item/clothing/head/beret/med
 	uniform = /obj/item/clothing/under/fallout/enclave/sci

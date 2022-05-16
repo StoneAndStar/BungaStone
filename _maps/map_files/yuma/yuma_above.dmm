@@ -7,10 +7,6 @@
 /obj/effect/landmark/start/new_player,
 /turf/open/floor/plating/beach/sand,
 /area/fallout/yuma)
-"YB" = (
-/obj/effect/landmark/observer_start,
-/turf/open/floor/plating/beach/sand,
-/area/fallout/yuma)
 "ZZ" = (
 /turf/open/floor/plating/beach/sand,
 /area/fallout/yuma)
@@ -28123,7 +28119,7 @@ ZZ
 ZZ
 ZZ
 ZZ
-YB
+ZZ
 cb
 cb
 cb
