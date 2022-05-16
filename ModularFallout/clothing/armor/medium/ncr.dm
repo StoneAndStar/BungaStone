@@ -18,4 +18,5 @@
 
 /obj/item/clothing/suit/armor/vest/medium/ncr/cpt
 	name = "ncr captain vest"
-	icon_state = "ncr_captain_armour"
+	icon_state = "ncr_officer_coat"
+

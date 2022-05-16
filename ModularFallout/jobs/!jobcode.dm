@@ -19,7 +19,10 @@ GLOBAL_LIST_INIT(ncr_positions, list(
 	"NCR Corporal",
 	"NCR Trooper",
 	"NCR Conscript",
-	"NCR Rear Echelon",))
+	"NCR Rear Echelon",
+
+	"Veteran Ranger",
+	"NCR Ranger"))
 
 
 GLOBAL_LIST_INIT(legion_positions, list(
