@@ -30,13 +30,12 @@
 	head = 	/obj/item/clothing/head/fallout/hat/ncrofficer
 
 //Noncombatant
-/datum/outfit/job/ncr/mo
-	name = "NCR Medical Officer"
+/datum/outfit/job/ncr/lo
+	name = "NCR Logistics Officer"
 	uniform = /obj/item/clothing/under/fallout/ncr/officer
 	suit = /obj/item/clothing/suit/armor/vest/medium/ncr/cpt
 	head = 	/obj/item/clothing/head/fallout/hat/sapper
 
-//Noncombatant
 /datum/outfit/job/ncr/mo
 	name = "NCR Medical Officer"
 	uniform = /obj/item/clothing/under/fallout/ncr/officer

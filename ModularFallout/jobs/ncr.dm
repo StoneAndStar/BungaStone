@@ -68,6 +68,19 @@
 
 //Non-combat roles
 
+/datum/job/ncr/lo
+	title = "NCR Logistics Officer"
+	department_head = list("NCR Captain")
+	faction = "Station"
+	total_positions = 1
+	spawn_positions = 1
+
+	outfit = /datum/outfit/job/ncr/lo
+
+	paycheck = PAYCHECK_MEDIUM
+	display_order = JOB_DISPLAY_ORDER_NCROFFICER
+
+
 /datum/job/ncr/mo
 	title = "NCR Medical Officer"
 	department_head = list("NCR Captain")
@@ -80,16 +93,4 @@
 	paycheck = PAYCHECK_MEDIUM
 	display_order = JOB_DISPLAY_ORDER_NCROFFICER
 
-
-/datum/job/ncr/lo
-	title = "NCR Logistics Officer"
-	department_head = list("NCR Captain")
-	faction = "Station"
-	total_positions = 1
-	spawn_positions = 1
-
-	outfit = /datum/outfit/job/ncr/lo
-
-	paycheck = PAYCHECK_MEDIUM
-	display_order = JOB_DISPLAY_ORDER_NCROFFICER
 
