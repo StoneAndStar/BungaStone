@@ -303,6 +303,7 @@ Used by the AI doomsday and the self-destruct nuke.
 		++space_levels_so_far
 		add_new_zlevel("Empty Area [space_levels_so_far]", ZTRAITS_SPACE)
 
+/*
 	if(config.minetype == "mining")
 		var/mining_map_to_load = SSrandommining.choosen_map
 		var/mining_traits_to_load = GLOB.mining_traits[SSrandommining.traits]
@@ -345,6 +346,7 @@ Used by the AI doomsday and the self-destruct nuke.
 		// It HAS to be loaded after lavaland, yes.
 	if(CONFIG_GET(flag/tombworld_enabled) && GLOB.tomb_portal_location)
 		createRandomTomb()
+		*/
 #endif
 
 	if(LAZYLEN(FailedZs))	//but seriously, unless the server's filesystem is messed up this will never happen

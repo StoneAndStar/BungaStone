@@ -1,0 +1,30 @@
+{
+	"version": 1,
+	"map_name": "Yuma",
+	"map_path": "map_files/yuma",
+	"map_file": [
+		"yuma_underground.dmm",
+		"yuma_above.dmm"
+	],
+	"shuttles": {
+		"cargo": "cargo_box",
+		"ferry": "ferry_fancy",
+		"whiteship": "whiteship_delta",
+		"emergency": "emergency_box"
+	},
+	"traits": [
+		{
+			"Up" : 1,
+			"Linkage" : "Cross"
+		},
+		{
+			"Down" : -1,
+			"Baseturf" : "/turf/open/openspace",
+			"Linkage" : "Cross"
+		}
+	],
+	"maptype": "yuma",
+	"space_ruin_levels": 0,
+	"space_empty_levels": 0,
+	"minetype": "none"
+}

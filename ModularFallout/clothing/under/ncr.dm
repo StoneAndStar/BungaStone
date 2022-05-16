@@ -5,3 +5,8 @@
 	worn_icon = 'ModularFallout/!icons/onmob/clothes/uniform.dmi'
 	icon = 'ModularFallout/!icons/clothing/uniform.dmi'
 	can_adjust = FALSE
+
+/obj/item/clothing/under/fallout/ncr/officer
+	name = "ncr officer uniform"
+	desc = "An NCR uniform"
+	icon_state = "ncr_officer"
