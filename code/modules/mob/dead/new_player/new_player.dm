@@ -416,20 +416,8 @@
 
 	department_categories = list("Command", "Service", "Supply", "Engineering", "Medical", "Science", "Security", "Silicon")
 
-	if(SSmaptype.maptype == "goonlite")
-		department_categories = list("Command", "Service", "Security", "Logistics", "Medical", "Science")
-
-	if(SSmaptype.maptype == "naval")
-		department_categories = list("Command", "Service", "Supply", "Engineering", "Medical", "Science", "NT Marines", "Silicon")
-
-	if(SSmaptype.maptype == "syndicate")
-		department_categories = list("Syndicate Command", "Operations", "Triage", "Logistics", "Military Police")
-
-	if(SSmaptype.maptype == "kepler-ice")
-		department_categories = list("Solgov", "NT Marines", "Operations")
-
-	if(SSmaptype.maptype == "blacksite")
-		department_categories = list("NT Marines")
+	if(SSmaptype.maptype == "yuma")
+		department_categories = list("NCR", "BOS", "Legion", "Enclave", "FOA", "Town", "Wasteland")
 
 
 

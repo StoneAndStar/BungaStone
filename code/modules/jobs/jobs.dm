@@ -1,4 +1,4 @@
-GLOBAL_LIST_INIT(command_positions,list(
+/*GLOBAL_LIST_INIT(command_positions,list(
 	"Captain",
 
 	//Nonstandard heads
@@ -16,7 +16,7 @@ GLOBAL_LIST_INIT(command_positions,list(
 	//Nt Marine command
 	"NT Commander",
 	"ERT Commander",
-	"NT Squad Leader"))
+	"NT Squad Leader"))*/
 
 GLOBAL_LIST_INIT(engineering_positions, list(
 	"Chief Engineer",
@@ -159,7 +159,7 @@ GLOBAL_LIST_INIT(solgov_positions, list(
 	"Security",
 	"Nomad"))
 
-
+/*
 GLOBAL_LIST_INIT(position_categories, list(
 	EXP_TYPE_COMMAND = list("jobs" = command_positions, "color" = "#ccccff"),
 	EXP_TYPE_ENGINEERING = list("jobs" = engineering_positions, "color" = "#ffeeaa"),
@@ -203,7 +203,7 @@ GLOBAL_LIST_INIT(exp_jobsmap, list(
 
 //Other Gamemodes
 	EXP_TYPE_SOLGOV = list("titles" = solgov_positions)
-))
+))*/
 
 GLOBAL_LIST_INIT(exp_specialmap, list(
 

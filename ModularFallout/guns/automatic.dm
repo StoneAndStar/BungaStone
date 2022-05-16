@@ -55,7 +55,6 @@
 	extra_damage = 32
 	extra_penetration = 0.1
 	recoil = 0.35
-	can_attachments = TRUE
 	can_suppress = FALSE
 	actions_types = list(/datum/action/item_action/toggle_firemode)
 	fire_sound = 'sound/f13weapons/magnum_fire.ogg'
@@ -76,7 +75,6 @@
 	burst_shot_delay = 2.75
 	autofire_shot_delay = 2.5
 	spread = 14
-	can_attachments = TRUE
 	suppressor_state = "uzi_suppressor"
 	suppressor_x_offset = 26
 	suppressor_y_offset = 19
@@ -91,7 +89,6 @@
 /obj/item/gun/ballistic/automatic/smg/greasegun/worn
 	name = "beat up 9mm submachine gun"
 	desc = "What was once an inexpensive, but reliable submachine gun is now an inexpensive piece of shit. It's impressive this thing still fires at all."
-	can_attachments = FALSE
 	spread = 16.5
 	recoil = 0.3
 	extra_damage = 17
@@ -111,7 +108,6 @@
 	extra_penetration = 0.1
 	recoil = 0.05
 	fire_delay = 3.25
-	can_attachments = TRUE
 	suppressor_state = "10mm_suppressor" //activate if sprited
 	suppressor_x_offset = 30
 	suppressor_y_offset = 16
@@ -148,7 +144,6 @@
 	spread = 16
 	extra_damage = 17
 	can_suppress = TRUE
-	can_attachments = TRUE
 	spread = 10
 	suppressor_state = "uzi_suppressor"
 	suppressor_x_offset = 29
@@ -172,7 +167,6 @@
 	fire_delay = 3.5
 	extra_damage = 20
 	recoil = 0.1
-	can_attachments = TRUE
 	fire_sound = 'sound/f13weapons/10mm_fire_03.ogg'
 
 	/obj/item/gun/ballistic/automatic/smg/cg45/Initialize()
@@ -227,7 +221,6 @@
 	autofire_shot_delay = 2
 	burst_shot_delay = 2.5
 	recoil = 0.25
-	can_suppress = TRUE
 	suppressor_state = "pistol_suppressor"
 	suppressor_x_offset = 29
 	suppressor_y_offset = 16
@@ -259,7 +252,6 @@
 	extra_damage = 17
 	suppressed = 1
 	recoil = 0.05
-	can_attachments = TRUE
 	can_suppress = FALSE
 	can_unsuppress = FALSE
 	fire_sound = 'sound/weapons/Gunshot_silenced.ogg'
@@ -284,7 +276,6 @@
 	extra_damage = 18
 	extra_penetration = 0.05
 	recoil = 0.25
-	can_attachments = TRUE
 	can_scope = TRUE
 	scope_state = "AEP7_scope"
 	scope_x_offset = 9
@@ -322,7 +313,6 @@
 	scope_state = "scope_medium"
 	scope_x_offset = 5
 	scope_y_offset = 14
-	can_attachments = TRUE
 	can_automatic = TRUE
 	semi_auto = TRUE
 	can_suppress = TRUE

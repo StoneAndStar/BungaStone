@@ -1,0 +1,7 @@
+#define EXP_TYPE_NCR			"NCR"
+#define EXP_TYPE_LEGION			"Legion"
+#define EXP_TYPE_BOS			"BOS"
+#define EXP_TYPE_ENCLAVE		"Enclave"
+#define EXP_TYPE_FOA			"FOA"
+#define EXP_TYPE_TOWN			"Town"
+#define EXP_TYPE_WASTELAND		"Wasteland"
