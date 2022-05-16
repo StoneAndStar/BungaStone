@@ -1,5 +1,6 @@
 GLOBAL_LIST_INIT(command_positions,list(
 	"NCR Captain",
+	"Veteran Ranger",
 	"Centurion",
 	"Head Paladin",
 	"Head Knight",

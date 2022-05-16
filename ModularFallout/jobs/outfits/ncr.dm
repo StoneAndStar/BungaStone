@@ -7,8 +7,7 @@
 	ears = /obj/item/radio/headset
 	gloves = /obj/item/clothing/gloves/color/black
 	head = /obj/item/clothing/head/fallout/ncr
-	belt = null
-//	belt = /obj/item/storage/belt/military/assault/ncr
+	belt = /obj/item/storage/belt/military/assault/ncr
 
 /datum/outfit/job/ncr/cpl
 	name = "NCR Corporal"
@@ -67,15 +66,15 @@
 //Rangers
 /datum/outfit/job/ncr/vetranger
 	name = "Veteran Ranger"
-	head = 	/obj/item/clothing/head/fallout/ncr/ranger
+	head = 	/obj/item/clothing/head/fallout/ncr/vetranger
 	uniform = /obj/item/clothing/under/fallout/ncr/vet
 	suit = /obj/item/clothing/suit/armor/vest/light/ncr/veteran
 	glasses	= /obj/item/clothing/glasses/sunglasses
 
 /datum/outfit/job/ncr/ranger
-	name = "Veteran Ranger"
-	head = 	/obj/item/clothing/head/fallout/ncr/vetranger
-	uniform = /obj/item/clothing/head/fallout/ncr/ranger
+	name = "NCR Ranger"
+	head = 	/obj/item/clothing/head/fallout/ncr/ranger
+	uniform = /obj/item/clothing/under/fallout/ncr/ranger
 	suit = /obj/item/clothing/suit/armor/vest/light/ncr/ranger
 	glasses	= /obj/item/clothing/glasses/sunglasses
 
