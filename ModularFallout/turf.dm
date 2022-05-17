@@ -1,8 +1,9 @@
-/turf/open/floor/plating/dirt/sand
+/turf/open/floor/plating/sand/fallout
 	icon_state = "sand"
+	icon = 'icons/misc/beach.dmi'
 	base_icon_state = "sand"
 
-	baseturfs = /turf/open/floor/plating/dirt/sand
+	baseturfs = /turf/open/floor/plating/sand/fallout
 
-/turf/open/floor/plating/dirt/sand/setup_broken_states()
+/turf/open/floor/plating/sand/fallout/setup_broken_states()
 	return list("sand")

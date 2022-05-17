@@ -3710,6 +3710,8 @@
 #include "ModularFallout\jobs\outfits\ncr.dm"
 #include "ModularFallout\jobs\outfits\police.dm"
 #include "ModularFallout\jobs\outfits\wasteland.dm"
+#include "ModularFallout\landmarks\brotherhood.dm"
+#include "ModularFallout\melee\1h.dm"
 #include "ModularTegustation\anomaly_items\anomaly_tools.dm"
 #include "ModularTegustation\anomaly_items\anomaly_weapons.dm"
 #include "ModularTegustation\anomaly_items\research_nodes.dm"

@@ -18,4 +18,6 @@
 	name = "T51B power armor helmet"
 	desc = "the helmet for the T51B."
 	icon_state = "t51bhelmet0"
+	flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH
+	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEHAIR|HIDESNOUT
 	armor = list(MELEE = 70, BULLET = 70, LASER = 70, ENERGY = 45, BOMB = 10, BIO = 35, RAD = 50, FIRE = 30, ACID = 50, WOUND = 20)

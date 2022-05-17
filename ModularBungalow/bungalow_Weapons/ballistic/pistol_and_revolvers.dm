@@ -3,12 +3,6 @@
 ///////////////////////
 
 /obj/item/gun/ballistic/automatic/pistol/mk23
-	name = "Mark 23 SOCOM"
-	desc = "A pistol used by special forces across the galaxy."
-	icon_state = "mk23"
-	icon = 'ModularBungalow/bungalow_Weapons/_icon/ballistics.dmi'
-	mag_type = /obj/item/ammo_box/magazine/m10mm
-	can_suppress = FALSE
 
 /obj/item/gun/ballistic/automatic/pistol/sig
 	name = "SIG Sauer P226"
@@ -25,7 +19,7 @@
 	icon_state = "ppk"
 	mag_type = /obj/item/ammo_box/magazine/m9mm
 	can_suppress = FALSE
-	
+
 /obj/item/gun/ballistic/automatic/pistol/actualppk
 	name = "K&H PPK"
 	desc = "A modern version of the classic spy gun by Kain and Heinrich. Favored by cheap action movie spies."

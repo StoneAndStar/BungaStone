@@ -31,7 +31,7 @@
 /obj/item/ammo_casing/c38/improv
 	name = "homemade .38 special bullet casing"
 	desc = "A .38 special bullet casing."
-	caliber = "38"
+	caliber = ".38"
 	projectile_type = /obj/projectile/bullet/c38/improv
 
 /obj/item/ammo_casing/c38/rubber

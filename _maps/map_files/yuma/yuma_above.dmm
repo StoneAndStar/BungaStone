@@ -2,56 +2,60 @@
 "bP" = (
 /obj/item/gun/ballistic/automatic/pistol/sec,
 /turf/open/floor/wood,
-/area/fallout/indoors)
+/area/fallout)
 "cb" = (
 /obj/effect/landmark/latejoin,
-/turf/open/floor/plating/beach/sand,
+/turf/open/floor/plating/sand/fallout,
 /area/fallout)
 "cR" = (
 /turf/open/floor/wood,
-/area/fallout/indoors)
+/area/fallout)
 "gW" = (
 /turf/open/openspace,
 /area/fallout)
 "pQ" = (
 /obj/item/gun/ballistic/automatic/pistol/mk23,
 /turf/open/floor/wood,
-/area/fallout/indoors)
+/area/fallout)
+"tD" = (
+/obj/effect/landmark/start/brotherhood/headpaladin,
+/turf/open/floor/wood,
+/area/fallout)
 "xv" = (
 /turf/closed/wall/fallout/store,
-/area/fallout/indoors/brotherhood)
+/area/fallout)
 "yV" = (
 /obj/item/gun/ballistic/automatic/pistol/n99,
 /turf/open/floor/wood,
-/area/fallout/indoors)
+/area/fallout)
 "AA" = (
 /obj/effect/landmark/start/new_player,
-/turf/open/floor/plating/beach/sand,
+/turf/open/floor/plating/sand/fallout,
 /area/fallout)
 "Mp" = (
 /obj/item/gun/ballistic/automatic/pistol/pistol14,
 /turf/open/floor/wood,
-/area/fallout/indoors)
+/area/fallout)
 "MQ" = (
 /obj/item/gun/ballistic/automatic/pistol/ninemil,
 /turf/open/floor/wood,
-/area/fallout/indoors)
+/area/fallout)
 "PQ" = (
 /obj/item/gun/ballistic/automatic/pistol/deagle,
 /turf/open/floor/wood,
-/area/fallout/indoors)
+/area/fallout)
 "QQ" = (
 /turf/open/floor/plasteel,
-/area/fallout/indoors/brotherhood)
+/area/fallout)
 "UC" = (
 /obj/item/debug/human_spawner,
 /turf/open/floor/wood,
-/area/fallout/indoors)
+/area/fallout)
 "WH" = (
 /turf/closed/wall/mineral/wood,
-/area/fallout/indoors)
+/area/fallout)
 "ZZ" = (
-/turf/open/floor/plating/beach/sand,
+/turf/open/floor/plating/sand/fallout,
 /area/fallout)
 
 (1,1,1) = {"
@@ -26098,7 +26102,7 @@ ZZ
 WH
 MQ
 cR
-cR
+tD
 cR
 cR
 cR
@@ -26355,7 +26359,7 @@ ZZ
 WH
 Mp
 cR
-cR
+tD
 cR
 cR
 cR
@@ -26612,7 +26616,7 @@ ZZ
 WH
 bP
 cR
-cR
+tD
 cR
 cR
 cR
