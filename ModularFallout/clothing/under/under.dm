@@ -1,6 +1,8 @@
 /obj/item/clothing/under/fallout
 	worn_icon = 'ModularFallout/!icons/onmob/clothes/uniform.dmi'
-	icon = 'ModularFallout/!icons/clothing/uniform.dmi'
+	icon = 'ModularFallout/!icons/clothing/uniforms.dmi'
+	lefthand_file = 'ModularFallout/!icons/mob/inhands/clothing_lefthand.dmi'
+	righthand_file = 'ModularFallout/!icons/mob/inhands/clothing_righthand.dmi'
 	can_adjust = FALSE
 
 /obj/item/clothing/under/fallout/follower

@@ -2,8 +2,6 @@
 /obj/item/clothing/head/fallout/hat/legion
 	name = "legion helmet template"
 	desc = "should not exist."
-	icon = 'icons/fallout/clothing/hats.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
 	lefthand_file = ""
 	righthand_file = ""
 	armor = list("melee" = 30, "bullet" = 30, "laser" = 10, "energy" = 10, "bomb" = 15, "bio" = 20, "rad" = 20, "fire" = 25, "acid" = 0, "wound" = 40)
@@ -167,3 +165,14 @@
 	inhand_icon_state = "legion-recruit"
 	armor = list("melee" = 33, "bullet" = 25, "laser" = 5, "energy" = 10, "bomb" = 20, "bio" = 20, "rad" = 20, "fire" = 25, "acid" = 0, "wound" = 40)
 	flags_inv = HIDEEARS|HIDEHAIR
+
+
+// Support headpiece
+
+/obj/item/head/fallout/hat/legion/auxilia
+	name = "auxilia headwear"
+	desc = "A soft red cap with a black band, used by female Auxilia outside camp."
+	icon_state = "legion-aux"
+	inhand_icon_state = "legion-aux"
+	flags_inv = HIDEEARS
+	flags_cover = null

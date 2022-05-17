@@ -33,7 +33,9 @@ GLOBAL_LIST_INIT(ncr_positions, list(
 
 GLOBAL_LIST_INIT(legion_positions, list(
 	"Centurion",
+	"Legion Orator",
 	"Veteran Decanus",
+	"Legion Vexillarius",
 	"Prime Decanus",
 	"Recruit Decanus",
 	"Veteran Legionnaire",
@@ -42,6 +44,8 @@ GLOBAL_LIST_INIT(legion_positions, list(
 	"Legion Venator",
 	"Legion Explorer",
 	"Legion Slavemaster",
+	"Legion Forgemaster",
+	"Legion Immune",
 	"Legion Auxilia",
 	"Legion Slave"))
 

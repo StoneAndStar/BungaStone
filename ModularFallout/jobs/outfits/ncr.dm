@@ -7,7 +7,7 @@
 	ears = /obj/item/radio/headset
 	gloves = /obj/item/clothing/gloves/color/black
 	head = /obj/item/clothing/head/fallout/ncr
-	belt = /obj/item/storage/belt/military/assault/ncr
+	belt = /obj/item/storage/belt/fallout/military/assault/ncr
 	shoes = /obj/item/clothing/shoes/jackboots
 	backpack_contents = list()
 

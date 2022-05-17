@@ -1,10 +1,6 @@
 /obj/item/clothing/under/fallout/legion
 	name = "legionary fatigues"
 	desc = "A black learthery skirt and a thick long sleeve cotton shirt."
-	worn_icon = 'ModularFallout/!icons/onmob/clothes/uniforms.dmi'
-	icon = 'ModularFallout/!icons/clothing/uniforms.dmi'
-	lefthand_file = 'ModularFallout/!icons/mob/inhands/clothing_lefthand.dmi'
-	righthand_file = 'ModularFallout/!icons/mob/inhands/clothing_righthand.dmi'
 	icon_state = "legskirt"
 	inhand_icon_state = "legskirt"
 	alt_covers_chest = TRUE
