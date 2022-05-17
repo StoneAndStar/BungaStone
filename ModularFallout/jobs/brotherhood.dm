@@ -63,7 +63,7 @@
 	total_positions = 1
 	spawn_positions = 1
 	display_order = JOB_DISPLAY_ORDER_BOSSP
-	outfit = /datum/outfit/job/brotherhood/paladin
+	outfit = /datum/outfit/job/brotherhood/paladin/senior
 
 /datum/job/brotherhood/headpaladin
 	title = "Head Paladin"
@@ -73,7 +73,7 @@
 	total_positions = 1
 	spawn_positions = 1
 	display_order = JOB_DISPLAY_ORDER_BOSHP
-	outfit = /datum/outfit/job/brotherhood/paladin
+	outfit = /datum/outfit/job/brotherhood/paladin/senior
 
 
 //Scribe

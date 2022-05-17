@@ -1,20 +1,20 @@
 /obj/item/ammo_box/magazine/internal/cylinder/rev38
 	name = "detective revolver cylinder"
 	ammo_type = /obj/item/ammo_casing/c38
-	caliber = "38"
+	caliber = ".38"
 	max_ammo = 6
 
 /obj/item/ammo_box/magazine/internal/cylinder/rus357
 	name = "\improper Russian revolver cylinder"
 	ammo_type = /obj/item/ammo_casing/a357
-	caliber = "357"
+	caliber = ".357"
 	max_ammo = 6
 	multiload = 0
 
 /obj/item/ammo_box/magazine/internal/cylinder/lucky37
 	name = "\improper Lucky 37 cylinder"
 	ammo_type = /obj/item/ammo_casing/a357
-	caliber = "357"
+	caliber = ".357"
 	max_ammo = 6
 
 /obj/item/ammo_box/magazine/internal/cylinder/rev6520
@@ -66,7 +66,7 @@
 /obj/item/ammo_box/magazine/internal/cylinder/improvised44
 	name = "improvised internal magazine .44"
 	ammo_type = /obj/item/ammo_casing/m44
-	caliber = "44"
+	caliber = ".44"
 	max_ammo = 1
 
 /obj/item/ammo_box/magazine/internal/cylinder/improvised762
@@ -84,7 +84,7 @@
 /obj/item/ammo_box/magazine/internal/cylinder/rev44
 	name = "44 magnum cylinder"
 	ammo_type = /obj/item/ammo_casing/m44
-	caliber = "44"
+	caliber = ".44"
 	max_ammo = 6
 
 /obj/item/ammo_box/magazine/internal/cylinder/rev357

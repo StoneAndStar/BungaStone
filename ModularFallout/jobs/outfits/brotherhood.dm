@@ -36,6 +36,9 @@
 	suit = /obj/item/clothing/suit/armor/vest/power/t51b
 	head = /obj/item/clothing/head/fallout/brotherhood/t51b
 
+/datum/outfit/job/brotherhood/paladin/senior
+	name = "Senior Paladin"
+	l_hand = /obj/item/minigunpack	//Bigger gun
 
 //Scribes
 /datum/outfit/job/brotherhood/scribe

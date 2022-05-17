@@ -38,13 +38,13 @@
 /obj/item/ammo_casing/p14mm
 	name = "14mm FMJ bullet casing"
 	desc = "A 14mm FMJ bullet casing."
-	caliber = "14"
+	caliber = "14mm"
 	projectile_type = /obj/projectile/bullet/mm14
 
 /obj/item/ammo_casing/p14mm/uraniumtipped
 	name = "14mm uranium-tipped bullet casing"
 	desc = "A 14mm uranium-tipped bullet casing."
-	caliber = "14"
+	caliber = "14mm"
 	projectile_type = /obj/projectile/bullet/mm14/uraniumtipped
 
 // 22lr

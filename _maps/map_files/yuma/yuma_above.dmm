@@ -19,7 +19,7 @@
 /area/fallout/indoors)
 "xv" = (
 /turf/closed/wall/fallout/store,
-/area/fallout/indoors/city)
+/area/fallout/indoors/brotherhood)
 "yV" = (
 /obj/item/gun/ballistic/automatic/pistol/n99,
 /turf/open/floor/wood,
@@ -42,7 +42,7 @@
 /area/fallout/indoors)
 "QQ" = (
 /turf/open/floor/plasteel,
-/area/fallout/indoors/city)
+/area/fallout/indoors/brotherhood)
 "UC" = (
 /obj/item/debug/human_spawner,
 /turf/open/floor/wood,
