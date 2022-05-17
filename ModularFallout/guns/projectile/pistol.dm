@@ -37,7 +37,7 @@ Uranium, Contaminated
 
 /obj/projectile/bullet/c22
 	name = ".22lr bullet"
-	damage = 27
+	damage = 15
 	wound_bonus = 6
 
 /obj/projectile/bullet/c22/rubber
@@ -49,7 +49,7 @@ Uranium, Contaminated
 
 /obj/projectile/bullet/c22/shock
 	name = ".22lr shock bullet"
-	damage = -4 //about -25% damage
+	damage = 12 //about -25% damage
 	wound_bonus = 0
 	sharpness = SHARP_NONE
 
@@ -137,13 +137,13 @@ Uranium, Contaminated
 ///////////				-Medium round, wounding focus, guns in 10mm should have lower capacity
 /obj/projectile/bullet/c10mm/simple
 	name = "10mm FMJ bullet"
-	damage = 20
+	damage = 23
 	armour_penetration = 0.1
 	wound_bonus = 11
 
 /obj/projectile/bullet/c10mm/rubber
 	name = "10mm rubber bullet"
-	damage = -15
+	damage = 8
 	stamina = 26
 	wound_bonus = 0
 	sharpness = SHARP_NONE
@@ -167,7 +167,7 @@ Uranium, Contaminated
 
 /obj/projectile/bullet/c45
 	name = ".45 FMJ bullet"
-	damage = 30
+	damage = 27
 	wound_bonus = 15
 
 /obj/projectile/bullet/c45/op
@@ -177,14 +177,14 @@ Uranium, Contaminated
 
 /obj/projectile/bullet/c45/rubber
 	name = ".45 rubber bullet"
-	damage = -28
+	damage = 4
 	stamina = 45
 	sharpness = SHARP_NONE
 	wound_bonus = 0
 
 /obj/projectile/bullet/c45/incendiary
 	name = ".45 incendiary bullet"
-	damage = -5
+	damage = 20
 	var/fire_stacks = 1
 
 /obj/projectile/bullet/c45/incendiary/on_hit(atom/target, blocked = FALSE)
@@ -200,14 +200,14 @@ Uranium, Contaminated
 
 /obj/projectile/bullet/a357
 	name = ".357 FMJ bullet"
-	damage = 0
+	damage = 29
 	wound_bonus = 12
 	bare_wound_bonus = -14
 
 // 3 ricochets, more than enough to kill anything that moves
 /obj/projectile/bullet/a357/ricochet
 	name = ".357 ricochet bullet"
-	damage = 0
+	damage = 25
 	ricochets_max = 3
 	ricochet_chance = 140
 	ricochet_auto_aim_angle = 50
@@ -216,7 +216,7 @@ Uranium, Contaminated
 
 /obj/projectile/bullet/a357/incendiary
 	name = ".357 incendiary bullet"
-	damage = -5
+	damage = 25
 	var/fire_stacks = 2
 
 /obj/projectile/bullet/a357/incendiary/on_hit(atom/target, blocked = FALSE)
@@ -228,25 +228,25 @@ Uranium, Contaminated
 
 /obj/projectile/bullet/a357/improv
 	name = "poor .357 bullet"
-	damage = -5
+	damage = 20
 ////////////////
 // .44 MAGNUM //
 ////////////////		- Higher power round
 
 /obj/projectile/bullet/m44
 	name = ".44 FMJ bullet"
-	damage = 44
+	damage = 32
 	wound_bonus = 15
 	bare_wound_bonus = -20
 
 
 /obj/projectile/bullet/m44/simple //for simple mobs, separate to allow balancing
 	name = ".44 bullet"
-	damage = 40
+	damage = 32
 
 /obj/projectile/bullet/m44/incendiary
 	name = ".44 incendiary bullet"
-	damage = -5
+	damage = 25
 	var/fire_stacks = 2
 
 /obj/projectile/bullet/m44/incendiary/on_hit(atom/target, blocked = FALSE)
@@ -262,12 +262,12 @@ Uranium, Contaminated
 
 /obj/projectile/bullet/c4570
 	name = ".45-70 FMJ bullet"
-	damage = 0
+	damage = 37
 	wound_bonus = 18
 	bare_wound_bonus = -24
 
 /obj/projectile/bullet/c4570/explosive
-	damage = -15
+	damage = 30
 	name = ".45-70 explosive bullet"
 
 /obj/projectile/bullet/c4570/explosive/on_hit(atom/target, blocked = FALSE)
@@ -277,7 +277,7 @@ Uranium, Contaminated
 
 /obj/projectile/bullet/c4570/knockback
 	name = ".45-70 ultradense bullet"
-	damage = -15
+	damage = 30
 	wound_bonus = 0
 	sharpness = SHARP_NONE
 
@@ -295,7 +295,7 @@ Uranium, Contaminated
 
 /obj/projectile/bullet/mm14
 	name = "14mm FMJ bullet"
-	damage = 0
+	damage = 37
 	wound_bonus = 25
 	bare_wound_bonus = -28
 
@@ -303,7 +303,7 @@ Uranium, Contaminated
 
 /obj/projectile/bullet/mm14/uraniumtipped
 	name = "14mm uranium-tipped bullet"
-	damage = -5
+	damage = 30
 	armour_penetration = 0.1
 	irradiate = 300
 
@@ -317,7 +317,7 @@ Uranium, Contaminated
 //45 Long Colt. Bouncy ammo but less damage then the Sequoia. It's in one of the Vet Ranger kits
 /obj/projectile/bullet/a45lc
 	name = ".45 LC bullet"
-	damage = 0
+	damage = 35
 	armour_penetration = 0
 	wound_bonus = 20
 	bare_wound_bonus = -20
@@ -336,7 +336,7 @@ Uranium, Contaminated
 /obj/projectile/bullet/needle
 	name = "needle"
 	icon_state = "cbbolt"
-	damage = 0
+	damage = 15
 	armour_penetration = 0.8 //rare AP pistol ammo
 	var/piercing = FALSE
 

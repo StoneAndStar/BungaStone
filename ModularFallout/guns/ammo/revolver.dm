@@ -2,7 +2,7 @@
 /obj/item/ammo_casing/a357
 	name = ".357 FMJ bullet casing"
 	desc = "A .357 FMJ bullet casing."
-	caliber = "357"
+	caliber = ".357"
 	projectile_type = /obj/projectile/bullet/a357
 
 /obj/item/ammo_casing/a357/ricochet
@@ -25,13 +25,13 @@
 /obj/item/ammo_casing/c38
 	name = ".38 special bullet casing"
 	desc = "A .38 special bullet casing."
-	caliber = "38"
+	caliber = ".38"
 	projectile_type = /obj/projectile/bullet/c38
 
 /obj/item/ammo_casing/c38/improv
 	name = "homemade .38 special bullet casing"
 	desc = "A .38 special bullet casing."
-	caliber = "38"
+	caliber = ".38"
 	projectile_type = /obj/projectile/bullet/c38/improv
 
 /obj/item/ammo_casing/c38/rubber
@@ -51,7 +51,7 @@
 /obj/item/ammo_casing/m44
 	name = ".44 magnum FMJ bullet casing"
 	desc = "A .44 magnum full metal jacket bullet casing."
-	caliber = "44"
+	caliber = ".44"
 	projectile_type = /obj/projectile/bullet/m44
 
 /obj/item/ammo_casing/m44/incendiary

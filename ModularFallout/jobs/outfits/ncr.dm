@@ -65,7 +65,7 @@
 /datum/outfit/job/ncr/mo
 	name = "NCR Medical Officer"
 	uniform = /obj/item/clothing/under/fallout/ncr/officer
-	suit = /obj/item/clothing/suit/neocoat/trench
+	suit = /obj/item/clothing/suit/toggle/labcoat
 	head = /obj/item/clothing/head/beret/med
 	belt = /obj/item/storage/belt/medical
 	glasses = /obj/item/clothing/glasses/hud/health
@@ -95,6 +95,10 @@
 	suit = /obj/item/clothing/suit/armor/vest/light/ncr/veteran
 	shoes = /obj/item/clothing/shoes/workboots/mining
 	glasses	= /obj/item/clothing/glasses/sunglasses
+	suit_store = /obj/item/gun/ballistic/shotgun/lever_action/scope
+	backpack_contents = list(
+	/obj/item/gun/ballistic/revolver/sequoia = 1
+	)
 
 /datum/outfit/job/ncr/ranger
 	name = "NCR Ranger"
@@ -103,5 +107,9 @@
 	suit = /obj/item/clothing/suit/armor/vest/light/ncr/ranger
 	shoes = /obj/item/clothing/shoes/workboots/mining
 	glasses	= /obj/item/clothing/glasses/sunglasses
+	suit_store = /obj/item/gun/ballistic/shotgun/lever_action
+	backpack_contents = list(
+	/obj/item/gun/ballistic/revolver/colt357 = 1
+	)
 
 

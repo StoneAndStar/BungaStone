@@ -10,8 +10,8 @@
 
 	outfit = /datum/outfit/job/police
 
-	access = list(ACCESS_POLICE)
-	minimal_access = list(ACCESS_POLICE)
+	access = list(ACCESS_POLICE, ACCESS_TOWN)
+	minimal_access = list(ACCESS_POLICE, ACCESS_TOWN)
 	display_order = JOB_DISPLAY_ORDER_DEPUTY
 
 /datum/job/police/officer

@@ -469,6 +469,9 @@ SUBSYSTEM_DEF(job)
 
 	SEND_SIGNAL(living_mob, COMSIG_JOB_RECEIVED, living_mob.job)
 
+
+
+	/* Sends our boys to the latejoin
 	//If we joined at roundstart we should be positioned at our workstation
 	if(!joined_late)
 		var/spawning_handled = FALSE
@@ -496,7 +499,30 @@ SUBSYSTEM_DEF(job)
 		if(!S && !spawning_handled) //if there isn't a spawnpoint send them to latejoin, if there's no latejoin go yell at your mapper
 			log_world("Couldn't find a round start spawn point for [rank]")
 			if(!SendToLateJoin(living_mob))
-				living_mob.move_to_error_room()
+				living_mob.move_to_error_room()*/
+
+
+	if(!joined_late)
+		var/obj/S = null
+		for(var/obj/effect/landmark/start/sloc in GLOB.start_landmarks_list)
+//			if(!sloc.job_spawnpoint)
+//				continue
+			if(sloc.name != rank)
+				S = sloc //so we can revert to spawning them on top of eachother if something goes wrong
+				continue
+			if(locate(/mob/living) in sloc.loc)
+				continue
+			S = sloc
+			sloc.used = TRUE
+			break
+		if(length(GLOB.jobspawn_overrides[rank]))
+			S = pick(GLOB.jobspawn_overrides[rank])
+		if(S)
+			S.JoinPlayerHere(living_mob, FALSE)
+		if(!S) //if there isn't a spawnpoint send them to latejoin, if there's no latejoin go yell at your mapper
+			log_world("Couldn't find a round start spawn point for [rank]")
+			SendToLateJoin(living_mob)
+
 
 
 	if(living_mob.mind)

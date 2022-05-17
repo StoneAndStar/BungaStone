@@ -9,8 +9,6 @@
 	slowdown = 0.10
 	body_parts_covered = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
 	clothing_flags = BLOCKS_SHOVE_KNOCKDOWN
-	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEFACE|HIDEHAIR|HIDESNOUT
-	flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH
 	strip_delay = 80
 	equip_delay_other = 60
 	armor = list(MELEE = 70, BULLET = 70, LASER = 70, ENERGY = 60, BOMB = 100, BIO = 100, RAD = 15, FIRE = 60, ACID = 30, WOUND = 10)

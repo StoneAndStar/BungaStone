@@ -10,3 +10,12 @@
 	armor = list(MELEE = 20, BULLET = 20, LASER = 20, ENERGY = 5, BOMB = 10, BIO = 100, RAD = 15, FIRE = 60, ACID = 30, WOUND = 10)
 	//light armor
 
+/obj/item/clothing/suit/armor/vest/light/merc
+	name = "mercenary coat"
+	desc = "A lightly armored coat."
+	icon_state = "duster_vet"
+
+/obj/item/clothing/suit/armor/vest/light/tribal
+	name = "tribal armor plates"
+	desc = "Armor plates used by tribals."
+	icon_state = "tribal_light_armor"

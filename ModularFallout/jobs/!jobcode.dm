@@ -20,6 +20,7 @@ GLOBAL_LIST_INIT(ncr_positions, list(
 	"NCR Logistics Officer",
 	"NCR Sergeant First Class",
 	"NCR Sergeant",
+	"NCR Heavy Trooper",
 	"NCR Corporal",
 	"NCR Trooper",
 	"NCR Conscript",
@@ -89,7 +90,8 @@ GLOBAL_LIST_INIT(town_positions, list(
 	"Secretary",
 	"Shopkeeper",
 	"Prospector",
-	"Inkeeper",
+	"Innkeeper",
+	"Farmer",
 	"Citizen",
 	))
 

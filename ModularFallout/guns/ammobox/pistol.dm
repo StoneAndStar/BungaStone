@@ -134,7 +134,7 @@
 	icon = 'ModularFallout/!icons/objects/guns/ammo.dmi'
 	icon_state = "50ae"
 	ammo_type = /obj/item/ammo_casing/m44
-	caliber = "44"
+	caliber = ".44"
 	max_ammo = 8
 	multiple_sprites = 2
 
@@ -162,7 +162,7 @@
 	icon = 'ModularFallout/!icons/objects/guns/ammo.dmi'
 	icon_state = "50ae"
 	ammo_type = /obj/item/ammo_casing/p14mm
-	caliber = "14"
+	caliber = "14mm"
 	max_ammo = 7
 	multiple_sprites = 2
 

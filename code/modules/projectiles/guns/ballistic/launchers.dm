@@ -1,8 +1,9 @@
 //KEEP IN MIND: These are different from gun/grenadelauncher. These are designed to shoot premade rocket and grenade projectiles, not flashbangs or chemistry casings etc.
 //Put handheld rocket launchers here if someone ever decides to make something so hilarious ~Paprika
 
+
 /obj/item/gun/ballistic/revolver/grenadelauncher//this is only used for underbarrel grenade launchers at the moment, but admins can still spawn it if they feel like being assholes
-	desc = "A break-operated grenade launcher."
+/*	desc = "A break-operated grenade launcher."
 	name = "grenade launcher"
 	icon_state = "dshotgun_sawn"
 	inhand_icon_state = "gun"
@@ -10,7 +11,7 @@
 	fire_sound = 'sound/weapons/gun/general/grenade_launch.ogg'
 	w_class = WEIGHT_CLASS_NORMAL
 	pin = /obj/item/firing_pin/implant/pindicate
-	bolt_type = BOLT_TYPE_NO_BOLT
+	bolt_type = BOLT_TYPE_NO_BOLT*/
 
 /obj/item/gun/ballistic/revolver/grenadelauncher/unrestricted
 	pin = /obj/item/firing_pin
@@ -21,7 +22,7 @@
 		chamber_round()
 
 /obj/item/gun/ballistic/revolver/grenadelauncher/cyborg
-	desc = "A 6-shot grenade launcher."
+/*	desc = "A 6-shot grenade launcher."
 	name = "multi grenade launcher"
 	icon = 'icons/mecha/mecha_equipment.dmi'
 	icon_state = "mecha_grenadelnchr"
@@ -29,7 +30,7 @@
 	pin = /obj/item/firing_pin
 
 /obj/item/gun/ballistic/revolver/grenadelauncher/cyborg/attack_self()
-	return
+	return	*/
 
 /obj/item/gun/ballistic/automatic/gyropistol
 	name = "gyrojet pistol"
