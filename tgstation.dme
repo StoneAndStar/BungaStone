@@ -3734,15 +3734,11 @@
 #include "ModularFallout\!Defines\access.dm"
 #include "ModularFallout\!Defines\factions.dm"
 #include "ModularFallout\!Defines\jobs.dm"
-<<<<<<< HEAD
+#include "ModularFallout\!Defines\projectile.dm"
 #include "ModularFallout\!maps\yuma\yuma_above.dmm"
 #include "ModularFallout\!maps\yuma\yuma_underground.dmm"
-#include "ModularFallout\areas\yuma.dm"
 #include "ModularFallout\clothing\apron.dm"
 #include "ModularFallout\clothing\backpack.dm"
-=======
-#include "ModularFallout\!Defines\projectile.dm"
->>>>>>> df67ee50b89f121a842ae781f203d7d4c18df64b
 #include "ModularFallout\clothing\belt.dm"
 #include "ModularFallout\clothing\eyewear.dm"
 #include "ModularFallout\clothing\gloves.dm"
@@ -3800,13 +3796,10 @@
 #include "ModularFallout\jobs\outfits\legion.dm"
 #include "ModularFallout\jobs\outfits\ncr.dm"
 #include "ModularFallout\jobs\outfits\police.dm"
-<<<<<<< HEAD
-#include "ModularFallout\maps\yuma.dm"
-=======
 #include "ModularFallout\jobs\outfits\wasteland.dm"
 #include "ModularFallout\landmarks\brotherhood.dm"
+#include "ModularFallout\maps\yuma.dm"
 #include "ModularFallout\melee\1h.dm"
->>>>>>> df67ee50b89f121a842ae781f203d7d4c18df64b
 #include "ModularTegustation\anomaly_items\anomaly_tools.dm"
 #include "ModularTegustation\anomaly_items\anomaly_weapons.dm"
 #include "ModularTegustation\anomaly_items\research_nodes.dm"
