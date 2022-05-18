@@ -10,6 +10,7 @@
 	head = /obj/item/clothing/head/helmet/sec/enclave
 	shoes = /obj/item/clothing/shoes/jackboots
 	belt = /obj/item/storage/belt/military/assault
+	backpack_contents = list(/obj/item/gun/ballistic/automatic/fallout/pistol/mk23 = 1)
 
 
 /datum/outfit/job/enclave/sgt
@@ -23,7 +24,7 @@
 	suit = /obj/item/clothing/suit/armor/vest/power/advanced
 	head = /obj/item/clothing/head/fallout/enclave/advanced
 	suit_store = /obj/item/gun/ballistic/automatic/ar/hk21
-	backpack_contents = list(/obj/item/gun/ballistic/automatic/pistol = 1,
+	backpack_contents = list(/obj/item/gun/ballistic/automatic/fallout/pistol/mk23 = 1,
 	/obj/item/ammo_box/magazine/m556 = 3)
 
 

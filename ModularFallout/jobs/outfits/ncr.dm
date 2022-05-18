@@ -16,7 +16,7 @@
 	suit = /obj/item/clothing/suit/armor/vest/medium/ncr/cpl
 	head = /obj/item/clothing/head/fallout/ncr/bandolier
 	backpack_contents = list(
-	/obj/item/gun/ballistic/automatic/pistol/m1911 = 1
+	/obj/item/gun/ballistic/automatic/fallout/pistol/m1911 = 1
 	)
 
 /datum/outfit/job/ncr/sgt
@@ -24,7 +24,7 @@
 	suit = /obj/item/clothing/suit/armor/vest/medium/ncr/sgt
 	head = /obj/item/clothing/head/fallout/ncr/storm
 	backpack_contents = list(
-	/obj/item/gun/ballistic/automatic/pistol/ninemil = 1
+	/obj/item/gun/ballistic/automatic/fallout/pistol/ninemil = 1
 	)
 
 /datum/outfit/job/ncr/ht
@@ -32,7 +32,7 @@
 	suit = /obj/item/clothing/suit/armor/vest/heavy/salvaged/ht
 	head = /obj/item/clothing/head/fallout/ncr/ht
 	backpack_contents = list(
-	/obj/item/gun/ballistic/automatic/pistol/ninemil = 1
+	/obj/item/gun/ballistic/automatic/fallout/pistol/ninemil = 1
 	)
 
 /datum/outfit/job/ncr/lt
@@ -41,7 +41,7 @@
 	suit = /obj/item/clothing/suit/armor/vest/medium/ncr/lt
 	head = /obj/item/clothing/head/fallout/ncr/ncrofficer
 	backpack_contents = list(
-	/obj/item/gun/ballistic/automatic/pistol/ninemil = 1
+	/obj/item/gun/ballistic/automatic/fallout/pistol/ninemil = 1
 	)
 
 /datum/outfit/job/ncr/cpt
@@ -51,7 +51,7 @@
 	suit = /obj/item/clothing/suit/armor/vest/medium/ncr/cpt
 	head = 	/obj/item/clothing/head/fallout/ncr/ncrofficer
 	backpack_contents = list(
-	/obj/item/gun/ballistic/automatic/pistol/deagle = 1
+	/obj/item/gun/ballistic/automatic/fallout/pistol/deagle = 1
 	)
 
 //Noncombatant Officers
@@ -97,7 +97,7 @@
 	glasses	= /obj/item/clothing/glasses/sunglasses
 	suit_store = /obj/item/gun/ballistic/shotgun/lever_action/scope
 	backpack_contents = list(
-	/obj/item/gun/ballistic/revolver/sequoia = 1
+	/obj/item/gun/ballistic/revolver/fallout/sequoia = 1
 	)
 
 /datum/outfit/job/ncr/ranger
@@ -109,7 +109,7 @@
 	glasses	= /obj/item/clothing/glasses/sunglasses
 	suit_store = /obj/item/gun/ballistic/shotgun/lever_action
 	backpack_contents = list(
-	/obj/item/gun/ballistic/revolver/colt357 = 1
+	/obj/item/gun/ballistic/revolver/fallout/colt357 = 1
 	)
 
 

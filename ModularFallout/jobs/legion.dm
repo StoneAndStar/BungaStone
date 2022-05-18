@@ -12,7 +12,7 @@
 	//description = "You have recently come of age or been inducted into Caesar's Legion. You have absolutely no training, and are expected to follow every whim of the Decanii and your Centurion. Respect the soldiers of higher rank."
 	supervisors = "the Decanii and Centurion"
 
-	outfit = /datum/outfit/job/legion/legionnaire
+//	outfit = /datum/outfit/job/legion/legionnaire
 
 	access = list(ACCESS_LEGION)
 	minimal_access = list(ACCESS_LEGION)
@@ -26,7 +26,7 @@
 	//description = "A front line soldier who has shown ability to obey and fought in some battles. The Legions muscle, the young men who will build the future with their own blood and sacrifice, for Caesar."
 	exp_requirements = 120
 
-	outfit = /datum/outfit/job/legion/legionnaire/primlegionary
+//	outfit = /datum/outfit/job/legion/legionnaire/primlegionary
 
 	display_order = JOB_DISPLAY_ORDER_PRIME
 
@@ -38,7 +38,7 @@
 	//description = "A hardened warrior, obeying the orders from the Decanus and Centurion is second nature, as is fighting the profligates. If no officers are present, make sure the younger warriors act like proper Legionaires."
 	exp_requirements = 600
 
-	outfit = /datum/outfit/job/legion/legionnaire/vetlegionary
+//	outfit = /datum/outfit/job/legion/legionnaire/vetlegionary
 
 	display_order = JOB_DISPLAY_ORDER_VETERAN
 
@@ -51,7 +51,7 @@
 	supervisors = "the Venator and the Centurion"
 	exp_requirements = 300
 
-	outfit = /datum/outfit/job/legion/legionnaire/explorer
+//	outfit = /datum/outfit/job/legion/legionnaire/explorer
 
 
 	display_order = JOB_DISPLAY_ORDER_EXPLORER
@@ -65,11 +65,10 @@
 	supervisors = "the Veteran Decanus and Centurion"
 	exp_requirements = 720
 
-	outfit = /datum/outfit/job/legion/legionnaire/vexillarius
+//	outfit = /datum/outfit/job/legion/legionnaire/vexillarius
 
 
-	display_order = JOB_DISPLAY_ORDER_VEXIL
-
+	display_order = JOB_DISPLAY_ORDER_VEX
 
 // Command roles
 
@@ -82,8 +81,7 @@
 	access = list(ACCESS_LEGION, ACCESS_LEGION_COMMAND)
 	minimal_access = list(ACCESS_LEGION,  ACCESS_LEGION_COMMAND)
 	exp_requirements = 600
-	selection_color = "#b94f48"
-	outfit = /datum/outfit/job/legion/legionnaire/decan/rec
+//	outfit = /datum/outfit/job/legion/legionnaire/decan/rec
 
 
 	display_order = JOB_DISPLAY_ORDER_RECRUITDEC
@@ -97,8 +95,7 @@
 	access = list(ACCESS_LEGION, ACCESS_LEGION_COMMAND)
 	minimal_access = list(ACCESS_LEGION,  ACCESS_LEGION_COMMAND)
 	exp_requirements = 720
-	selection_color = "#b94f48"
-	outfit = /datum/outfit/job/legion/legionnaire/decan/prime
+//	outfit = /datum/outfit/job/legion/legionnaire/decan/prime
 
 
 	display_order = JOB_DISPLAY_ORDER_PRIMEDEC
@@ -112,9 +109,8 @@
 	supervisors = "the Centurion"
 	access = list(ACCESS_LEGION, ACCESS_LEGION_COMMAND)
 	minimal_access = list(ACCESS_LEGION,  ACCESS_LEGION_COMMAND)
-	selection_color = "#b94f48"
 
-	outfit = /datum/outfit/job/legion/legionnaire/venator
+//	outfit = /datum/outfit/job/legion/legionnaire/venator
 
 
 	display_order = JOB_DISPLAY_ORDER_VENATOR
@@ -129,10 +125,7 @@
 	access = list(ACCESS_LEGION, ACCESS_LEGION_COMMAND)
 	minimal_access = list(ACCESS_LEGION,  ACCESS_LEGION_COMMAND)
 	exp_requirements = 900
-	selection_color = "#b94f48"
-	outfit = /datum/outfit/job/legion/legionnaire/decan/vet
-
-
+//	outfit = /datum/outfit/job/legion/legionnaire/decan/vet
 	display_order = JOB_DISPLAY_ORDER_VETDEC
 
 
@@ -142,12 +135,9 @@
 	spawn_positions = 1
 	exp_requirements = 1500
 	selection_color = "#b94f48"
-
-	outfit = /datum/outfit/job/legion/legionnaire/orator
-
+//	outfit = /datum/outfit/job/legion/legionnaire/orator
 	access = list(ACCESS_LEGION, ACCESS_LEGION_COMMAND)
 	minimal_access = list(ACCESS_LEGION, ACCESS_LEGION_COMMAND)
-
 	display_order = JOB_DISPLAY_ORDER_ORATOR
 
 
@@ -161,10 +151,7 @@
 	minimal_access = list(ACCESS_LEGION,  ACCESS_LEGION_COMMAND)
 	exp_requirements = 1500
 	selection_color = "#b94f48"
-
-	outfit = /datum/outfit/job/legion/legionnaire/centurion
-
-
+//	outfit = /datum/outfit/job/legion/legionnaire/centurion
 	display_order = JOB_DISPLAY_ORDER_CENTURION
 
 /*
@@ -188,7 +175,7 @@
 	supervisors = "Officers and Slavemaster first, then Auxilia, then warriors."
 	exp_requirements = 120
 
-	outfit = /datum/outfit/job/legion/slave
+//	outfit = /datum/outfit/job/legion/slave
 
 	access = list(ACCESS_LEGION)
 	minimal_access = list(ACCESS_LEGION)
@@ -204,14 +191,14 @@
 	supervisors = "the Centurion"
 	exp_requirements = 600
 
-	outfit = /datum/outfit/job/legion/auxilia
+//	outfit = /datum/outfit/job/legion/auxilia
 
 	access = list(ACCESS_LEGION)
 	minimal_access = list(ACCESS_LEGION)
 
 	display_order = JOB_DISPLAY_ORDER_AUX
 
-
+/*
 
 /datum/job/legion/forgemaster
 	title = "Legion Forgemaster"
@@ -221,7 +208,7 @@
 	supervisors = "the Centurion."
 	exp_requirements = 300
 
-	outfit = /datum/outfit/job/legion/forgemaster
+//	outfit = /datum/outfit/job/legion/forgemaster
 
 	access = list(ACCESS_LEGION)
 	minimal_access = list(ACCESS_LEGION)
@@ -238,24 +225,24 @@
 	supervisors = "the Centurion."
 	exp_requirements = 300
 
-	outfit = /datum/outfit/job/legion/legionnaire/immune
+//	outfit = /datum/outfit/job/legion/legionnaire/immune
 
 	access = list(ACCESS_LEGION)
 	minimal_access = list(ACCESS_LEGION)
 
-	display_order = JOB_DISPLAY_ORDER_IMMUNE
+	display_order = JOB_DISPLAY_ORDER_IMMUNE*/
 
 
 
 	/datum/job/legion/legionnaire/slavemaster
 	title = "Legion Slavemaster"
-	total_positions = 5
+	total_positions = 1
 	spawn_positions = 1
 	//description = "An Immune is a legionnaire temporarily assigned to keeping the camp in order, according to their tasking on any given week. Mostly an off-duty role."
 	supervisors = "the Centurion."
 	exp_requirements = 300
 
-	outfit = /datum/outfit/job/legion/legionnaire/slavemaster
+//	outfit = /datum/outfit/job/legion/legionnaire/slavemaster
 
 	access = list(ACCESS_LEGION)
 	minimal_access = list(ACCESS_LEGION)
