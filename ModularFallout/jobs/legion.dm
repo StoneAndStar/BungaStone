@@ -95,7 +95,7 @@
 	access = list(ACCESS_LEGION, ACCESS_LEGION_COMMAND)
 	minimal_access = list(ACCESS_LEGION,  ACCESS_LEGION_COMMAND)
 	exp_requirements = 720
-	
+
 	selection_color = "#632b27"
 	outfit = /datum/outfit/job/legion/legionnaire/decan/prime
 
@@ -111,7 +111,7 @@
 	supervisors = "the Centurion"
 	access = list(ACCESS_LEGION, ACCESS_LEGION_COMMAND)
 	minimal_access = list(ACCESS_LEGION,  ACCESS_LEGION_COMMAND)
-	
+
 	selection_color = "#632b27"
 
 	outfit = /datum/outfit/job/legion/legionnaire/venator
@@ -179,7 +179,7 @@
 
 
 // Support roles
-
+/*
 /datum/job/legion/immune
 	title = "Legion Immune"
 	total_positions = 5
@@ -194,7 +194,7 @@
 	access = list(ACCESS_LEGION)
 	minimal_access = list(ACCESS_LEGION)
 
-	display_order = JOB_DISPLAY_ORDER_IMMUNE
+	display_order = JOB_DISPLAY_ORDER_IMMUNE*/
 
 /datum/job/legion/slavemaster
 	title = "Legion Slavemaster"
@@ -204,7 +204,7 @@
 	supervisors = "the Centurion."
 	exp_requirements = 300
 	outfit = /datum/outfit/job/legion/legionnaire/slavemaster
-	
+
 	access = list(ACCESS_LEGION)
 	minimal_access = list(ACCESS_LEGION)
 
@@ -221,7 +221,7 @@
 	selection_color =  "#a15752"
 	maptype = "yuma"
 
-   outfit = /datum/outfit/job/legion/forgemaster
+//	outfit = /datum/outfit/job/legion/forgemaster
 
 	access = list(ACCESS_LEGION)
 	minimal_access = list(ACCESS_LEGION)
@@ -258,4 +258,4 @@
 	minimal_access = list(ACCESS_LEGION)
 
 	display_order = JOB_DISPLAY_ORDER_AUX
-	
+

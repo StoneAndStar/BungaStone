@@ -8,7 +8,7 @@
 //////////////////////
 
 
-/obj/item/gun/ballistic/shotgun
+/obj/item/gun/ballistic/shotgun/fallout
 	slowdown = 0.4 //Bulky gun slowdown with rebate since generally smaller than assault rifles
 	name = "shotgun template"
 	desc = "Should not exist"
@@ -32,63 +32,8 @@
 	var/recentpump = 0 // to prevent spammage
 	spawnwithmagazine = TRUE
 	var/pump_sound = 'sound/weapons/shotgunpump.ogg'
-	fire_sound = 'sound/f13weapons/shotgun.ogg'
 
-
-/obj/item/gun/ballistic/shotgun/process_chamber(mob/living/user, empty_chamber = 0)
-	return ..() //changed argument value
-
-/obj/item/gun/ballistic/shotgun/can_shoot()
-	return !!chambered?.BB
-
-/obj/item/gun/ballistic/shotgun/attack_self(mob/living/user)
-	if(recentpump > world.time)
-		return
-	if(IS_STAMCRIT(user))//CIT CHANGE - makes pumping shotguns impossible in stamina softcrit
-		to_chat(user, "<span class='warning'>You're too exhausted for that.</span>")//CIT CHANGE - ditto
-		return//CIT CHANGE - ditto
-	pump(user, TRUE)
-	if(HAS_TRAIT(user, TRAIT_FAST_PUMP))
-		recentpump = world.time + 2
-	else
-		recentpump = world.time + 10
-		if(istype(user))//CIT CHANGE - makes pumping shotguns cost a lil bit of stamina.
-			user.adjustStaminaLossBuffered(2) //CIT CHANGE - DITTO. make this scale inversely to the strength stat when stats/skills are added
-	return
-
-/obj/item/gun/ballistic/shotgun/blow_up(mob/user)
-	. = 0
-	if(chambered && chambered.BB)
-		process_fire(user, user, FALSE)
-		. = 1
-
-/obj/item/gun/ballistic/shotgun/proc/pump(mob/M, visible = TRUE)
-	if(visible)
-		M.visible_message("<span class='warning'>[M] racks [src].</span>", "<span class='warning'>You rack [src].</span>")
-	playsound(M, pump_sound, 60, 1)
-	pump_unload(M)
-	pump_reload(M)
-	update_icon()	//I.E. fix the desc
-	return 1
-
-/obj/item/gun/ballistic/shotgun/proc/pump_unload(mob/M)
-	if(chambered)//We have a shell in the chamber
-		chambered.forceMove(drop_location())//Eject casing
-		chambered.bounce_away()
-		chambered = null
-
-/obj/item/gun/ballistic/shotgun/proc/pump_reload(mob/M)
-	if(!magazine.ammo_count())
-		return 0
-	var/obj/item/ammo_casing/AC = magazine.get_round() //load next casing.
-	chambered = AC
-
-/obj/item/gun/ballistic/shotgun/examine(mob/user)
-	. = ..()
-	if (chambered)
-		. += "A [chambered.BB ? "live" : "spent"] one is in the chamber."
-
-/obj/item/gun/ballistic/shotgun/lethal
+/obj/item/gun/ballistic/shotgun/fallout/lethal
 	mag_type = /obj/item/ammo_box/magazine/internal/shot/lethal
 
 
@@ -171,7 +116,7 @@
 
 
 //Hunting shotgun				Keywords: Shotgun, Pump-action, 4 rounds
-/obj/item/gun/ballistic/shotgun/hunting
+/obj/item/gun/ballistic/shotgun/fallout/hunting
 	name = "hunting shotgun"
 	desc = "A traditional hunting shotgun with wood furniture and a four-shell capacity underneath."
 	icon_state = "pump"
@@ -179,7 +124,7 @@
 	icon_prefix = "shotgunpump"
 	mag_type = /obj/item/ammo_box/magazine/internal/shot/lethal
 
-/obj/item/gun/ballistic/shotgun/hunting/update_icon_state()
+/obj/item/gun/ballistic/shotgun/fallout/hunting/update_icon_state()
 	if(sawn_off)
 		icon_state = "[initial(icon_state)]-sawn"
 	else if(!magazine || !magazine.ammo_count(0))
@@ -189,7 +134,7 @@
 
 
 //Police Shotgun				Keywords: Shotgun, Pump-action, 6 rounds, Folding stock, Flashlight rail
-/obj/item/gun/ballistic/shotgun/police
+/obj/item/gun/ballistic/shotgun/fallout/police
 	name = "police shotgun"
 	desc = "A pre-war shotgun with large magazine and folding stock, made from steel and polymers. Flashlight attachment rail."
 	icon_state = "shotgunpolice"
@@ -205,18 +150,18 @@
 	flight_x_offset = 23
 	flight_y_offset = 21
 
-/obj/item/gun/ballistic/shotgun/police/AltClick(mob/living/user)
+/obj/item/gun/ballistic/shotgun/fallout/police/AltClick(mob/living/user)
 	. = ..()
 	if(!istype(user) || !user.canUseTopic(src, BE_CLOSE, ismonkey(user)))
 		return
 	toggle_stock(user)
 	return TRUE
 
-/obj/item/gun/ballistic/shotgun/police/examine(mob/user)
+/obj/item/gun/ballistic/shotgun/fallout/police/examine(mob/user)
 	. = ..()
 	. += "<span class='notice'>Alt-click to toggle the stock.</span>"
 
-/obj/item/gun/ballistic/shotgun/police/proc/toggle_stock(mob/living/user)
+/obj/item/gun/ballistic/shotgun/fallout/police/proc/toggle_stock(mob/living/user)
 	stock = !stock
 	if(stock)
 		w_class = WEIGHT_CLASS_BULKY
@@ -229,12 +174,12 @@
 		recoil = 0.5
 	update_icon()
 
-/obj/item/gun/ballistic/shotgun/police/update_icon_state()
+/obj/item/gun/ballistic/shotgun/fallout/police/update_icon_state()
 	icon_state = "[current_skin ? unique_reskin[current_skin] : "shotgunpolice"][stock ? "" : "fold"]"
 
 
 //Trench shotgun					Keywords: Shotgun, Pump-action, 5 rounds, Bayonet, Extra firemode, Extra damage +1
-/obj/item/gun/ballistic/shotgun/trench
+/obj/item/gun/ballistic/shotgun/fallout/trench
 	name = "trench shotgun"
 	desc = "A military shotgun designed for close-quarters fighting, equipped with a bayonet lug."
 	icon_state = "trench"
@@ -247,17 +192,17 @@
 	knife_x_offset = 24
 	knife_y_offset = 22
 
-/obj/item/gun/ballistic/shotgun/trench/update_icon_state()
+/obj/item/gun/ballistic/shotgun/fallout/trench/update_icon_state()
 	if(!magazine || !magazine.ammo_count(0))
 		icon_state = "[initial(icon_state)]-e"
 	else
 		icon_state = "[initial(icon_state)]"
 
-/obj/item/gun/ballistic/shotgun/trench/ui_action_click()
+/obj/item/gun/ballistic/shotgun/fallout/trench/ui_action_click()
 	burst_select()
 
 //has a mode to let it pump much faster, at the cost of terrible accuracy and less damage
-/obj/item/gun/ballistic/shotgun/trench/proc/burst_select()
+/obj/item/gun/ballistic/shotgun/fallout/trench/proc/burst_select()
 	var/mob/living/carbon/human/user = usr
 	switch(select)
 		if(0)
@@ -281,25 +226,25 @@
 ///////////////////////////
 
 //Semi-auto shotgun template
-/obj/item/gun/ballistic/shotgun/automatic/combat
+/obj/item/gun/ballistic/shotgun/fallout/automatic/combat
 	name = "semi-auto shotgun template"
 	fire_delay = 6
 	extra_damage = 0
 	recoil = 0.1
 	spread = 2
 
-/obj/item/gun/ballistic/shotgun/automatic/shoot_live_shot(mob/living/user, pointblank = FALSE, mob/pbtarget, message = 1, stam_cost = 0)
+/obj/item/gun/ballistic/shotgun/fallout/automatic/shoot_live_shot(mob/living/user, pointblank = FALSE, mob/pbtarget, message = 1, stam_cost = 0)
 	..()
 	src.pump(user)
 
-/obj/item/gun/ballistic/shotgun/automatic/combat/update_icon_state()
+/obj/item/gun/ballistic/shotgun/fallout/automatic/combat/update_icon_state()
 	if(!magazine || !magazine.ammo_count(0))
 		icon_state = "[initial(icon_state)]-e"
 	else
 		icon_state = "[initial(icon_state)]"
 
 //Browning Auto-5						Keywords: Shotgun, Semi-auto, 4 rounds internal
-/obj/item/gun/ballistic/shotgun/automatic/combat/auto5
+/obj/item/gun/ballistic/shotgun/fallout/automatic/combat/auto5
 	name = "Browning Auto-5"
 	desc = "A semi automatic shotgun with a four round tube."
 	fire_delay = 5
@@ -310,7 +255,7 @@
 
 
 //Lever action shotgun					Keywords: LEGION, Shotgun, Lever-action, 5 round magazine, Pistol grip
-/obj/item/gun/ballistic/shotgun/automatic/combat/shotgunlever
+/obj/item/gun/ballistic/shotgun/fallout/automatic/combat/shotgunlever
 	name = "lever action shotgun"
 	desc = "A pistol grip lever action shotgun with a five-shell capacity underneath plus one in chamber. Signature weapon of the Legion."
 	icon_state = "shotgunlever"
@@ -329,7 +274,7 @@
 
 
 //Neostead 2000							Keywords: BOS, Shotgun, Semi-auto, 12 rounds internal
-/obj/item/gun/ballistic/shotgun/automatic/combat/neostead
+/obj/item/gun/ballistic/shotgun/fallout/automatic/combat/neostead
 	name = "Neostead 2000"
 	desc = "An advanced shotgun with two separate magazine tubes, allowing you to quickly toggle between ammo types."
 	icon_state = "neostead"
@@ -339,21 +284,21 @@
 	var/toggled = FALSE
 	var/obj/item/ammo_box/magazine/internal/shot/alternate_magazine
 
-/obj/item/gun/ballistic/shotgun/automatic/combat/neostead/examine(mob/user)
+/obj/item/gun/ballistic/shotgun/fallout/automatic/combat/neostead/examine(mob/user)
 	. = ..()
 	. += "<span class='notice'>Alt-click to switch tubes.</span>"
 
-/obj/item/gun/ballistic/shotgun/automatic/combat/neostead/Initialize()
+/obj/item/gun/ballistic/shotgun/fallout/automatic/combat/neostead/Initialize()
 	. = ..()
 	if (!alternate_magazine)
 		alternate_magazine = new mag_type(src)
 
-/obj/item/gun/ballistic/shotgun/automatic/combat/neostead/attack_self(mob/living/user)
+/obj/item/gun/ballistic/shotgun/fallout/automatic/combat/neostead/attack_self(mob/living/user)
 	. = ..()
 	if(!magazine.contents.len)
 		toggle_tube(user)
 
-/obj/item/gun/ballistic/shotgun/automatic/combat/neostead/proc/toggle_tube(mob/living/user)
+/obj/item/gun/ballistic/shotgun/fallout/automatic/combat/neostead/proc/toggle_tube(mob/living/user)
 	var/current_mag = magazine
 	var/alt_mag = alternate_magazine
 	magazine = alt_mag
@@ -364,14 +309,14 @@
 	else
 		to_chat(user, "You switch to tube A.")
 
-/obj/item/gun/ballistic/shotgun/automatic/combat/neostead/AltClick(mob/living/user)
+/obj/item/gun/ballistic/shotgun/fallout/automatic/combat/neostead/AltClick(mob/living/user)
 	if(!user.canUseTopic(src, BE_CLOSE, ismonkey(user)))
 		return
 	toggle_tube(user)
 
 
 //Winchester City-Killer				Keywords: Shotgun, Semi-auto, 12 rounds internal
-/obj/item/gun/ballistic/shotgun/automatic/combat/citykiller
+/obj/item/gun/ballistic/shotgun/fallout/automatic/combat/citykiller
 	name = "Winchester City-Killer shotgun"
 	desc = "A semi automatic shotgun with black tactical furniture made by Winchester Arms. This particular model uses a internal tube magazine."
 	icon_state = "citykiller"
@@ -415,7 +360,7 @@
 	weapon_weight = WEAPON_HEAVY
 
 // BETA // Obsolete
-/obj/item/gun/ballistic/shotgun/shotttesting
+/obj/item/gun/ballistic/shotgun/fallout/shotttesting
 	name = "shotgun"
 	icon_state = "shotgunpolice"
 	// = "shotgunpolice"
