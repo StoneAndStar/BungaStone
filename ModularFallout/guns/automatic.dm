@@ -35,7 +35,6 @@
 	burst_shot_delay = 1.5
 	suppressed = 1
 	actions_types = null
-	fire_sound = 'sound/f13weapons/american180.ogg'
 
 
 //14mm SMG Keywords: 14mm, Automatic, 21 rounds
@@ -52,7 +51,6 @@
 	recoil = 0.35
 	can_suppress = FALSE
 	actions_types = list(/datum/action/item_action/toggle_firemode)
-	fire_sound = 'sound/f13weapons/magnum_fire.ogg'
 
 
 //Greasegun				Keywords: 9mm, Automatic, 30 rounds
@@ -70,7 +68,6 @@
 	suppressor_x_offset = 26
 	suppressor_y_offset = 19
 	actions_types = list(/datum/action/item_action/toggle_firemode)
-	fire_sound = 'sound/f13weapons/greasegun.ogg'
 
 /obj/item/gun/ballistic/automatic/fallout/smg/smg14/Initialize()
 	. = ..()
@@ -101,7 +98,6 @@
 	recoil = 0.05
 	fire_delay = 3.25
 	actions_types = list(/datum/action/item_action/toggle_firemode)
-	fire_sound = 'sound/f13weapons/10mm_fire_03.ogg'
 
 /obj/item/gun/ballistic/automatic/fallout/smg/smg10mm/Initialize()
 	. = ..()
@@ -163,7 +159,6 @@
 	w_class = WEIGHT_CLASS_BULKY
 	mag_type = /obj/item/ammo_box/magazine/tommygunm45
 	init_mag_type = /obj/item/ammo_box/magazine/tommygunm45/stick
-	fire_sound = 'sound/weapons/gunshot_smg.ogg'
 	autofire_shot_delay = 2.25
 	burst_shot_delay = 2.75
 	fire_delay = 3.75
@@ -199,7 +194,6 @@
 	suppressor_state = "pistol_suppressor"
 	suppressor_x_offset = 29
 	suppressor_y_offset = 16
-	fire_sound = 'sound/f13weapons/10mm_fire_03.ogg'
 
 /obj/item/gun/ballistic/automatic/fallout/smg/p90/Initialize()
 	. = ..()
@@ -226,7 +220,6 @@
 	recoil = 0.05
 	can_suppress = FALSE
 	can_unsuppress = FALSE
-	fire_sound = 'sound/weapons/Gunshot_silenced.ogg'
 
 /obj/item/gun/ballistic/automatic/fallout/smg/mp5/Initialize()
 	. = ..()
@@ -388,7 +381,6 @@
 	can_scope = FALSE
 	can_unsuppress = FALSE
 	suppressed = 1
-	fire_sound = 'sound/weapons/Gunshot_large_silenced.ogg'
 
 //Commando carbine (BoS De Lisle variant)							Keywords: BoS, .45 ACP, 12 round magazine, Long barrel, Suppressed
 /obj/item/gun/ballistic/automatic/fallout/delisle/commando
@@ -417,7 +409,6 @@
 	zoom_out_amt = 13
 	can_unsuppress = FALSE
 	suppressor_state = "none"
-	fire_sound = 'sound/weapons/Gunshot_large_silenced.ogg'
 
 //Ratslayer									Keywords: UNIQUE, 5.56, 10/20/30 round magazine, Suppressed, Scoped, Extra damage +3
 /obj/item/gun/ballistic/automatic/fallout/varmint/ratslayer
@@ -429,7 +420,6 @@
 	zoomable = TRUE
 	zoom_amt = 10
 	zoom_out_amt = 13
-	fire_sound = 'sound/weapons/Gunshot_large_silenced.ogg'
 
 //Combat Rifle		Keywords: .45 Caliber Rifle, No Attachments (!)
 /obj/item/gun/ballistic/automatic/fallout/combat
@@ -446,7 +436,6 @@
 	can_attachments = FALSE
 	automatic_burst_overlay = FALSE
 	semi_auto = TRUE
-	fire_sound = 'sound/f13weapons/combatrifle.ogg'
 
 //Service rifle			Keywords: NCR, 5.56mm, Semi-auto, 20 (10-50) round magazine, 25dmg
 /obj/item/gun/ballistic/automatic/fallout/service
@@ -526,12 +515,11 @@
 	suppressor_state = "suppressor"
 	suppressor_x_offset = 31
 	suppressor_y_offset = 15
-	fire_sound = 'sound/f13weapons/marksman_rifle.ogg'
 
 /obj/item/gun/ballistic/automatic/fallout/marksman/policerifle
 	name = "Police Rifle"
 	desc = "A pre-war Rifle that has been constantly repaired and rebuilt by the Oasis Police Department. Held together by duct tape and prayers, it somehow still shoots. This one has been re-chambered to 5.56"
-	icon = 'ModularFallout/!icons/objects/guns/balistic.dmi'
+	icon = 'ModularFallout/!icons/objects/guns/ballistic.dmi'
 	lefthand_file = 'ModularFallout/!icons/onmob/weapons/guns_lefthand.dmi'
 	righthand_file = 'ModularFallout/!icons/onmob/weapons/guns_righthand.dmi'
 	icon_prefix = "assault_carbine"
@@ -569,14 +557,13 @@
 	scope_state = "scope_long"
 	scope_x_offset = 4
 	scope_y_offset = 11
-	fire_sound = 'sound/f13weapons/hunting_rifle.ogg'
 
 
 // Enfield SLR				Keywords: 7.62mm, Semi-auto, 10/20 round magazine
 /obj/item/gun/ballistic/automatic/fallout/slr
 	name = "Enfield SLR"
 	desc = "A self-loading rifle in 7.62mm NATO. Semi-auto only."
-	icon = 'ModularFallout/!icons/objects/guns/balistic.dmi'
+	icon = 'ModularFallout/!icons/objects/guns/ballistic.dmi'
 	lefthand_file = 'ModularFallout/!icons/onmob/weapons/guns_lefthand.dmi'
 	righthand_file = 'ModularFallout/!icons/onmob/weapons/guns_righthand.dmi'
 	icon_state = "slr"
@@ -646,7 +633,7 @@
 /obj/item/gun/ballistic/automatic/fallout/m1garand/sks
 	name = "SKS"
 	desc = "Old hunting rifle taken from disovered stockpiles and refurbished in Phoenix workshops. The standard heavy rifle of the Legion, still rare. .308, semi-auto only, internal magazine."
-	icon = 'ModularFallout/!icons/objects/guns/balistic.dmi'
+	icon = 'ModularFallout/!icons/objects/guns/ballistic.dmi'
 	lefthand_file = 'ModularFallout/!icons/onmob/weapons/guns_lefthand.dmi'
 	righthand_file = 'ModularFallout/!icons/onmob/weapons/guns_righthand.dmi'
 	icon_state = "sks"
@@ -675,7 +662,6 @@
 	semi_auto = TRUE
 	can_automatic = FALSE
 	can_bayonet = FALSE
-	fire_sound = 'sound/f13weapons/hunting_rifle.ogg'
 
 /obj/item/gun/ballistic/automatic/fallout/marksman/sniper/gold
 	name = "golden sniper rifle"
@@ -686,10 +672,10 @@
 /obj/item/gun/ballistic/automatic/fallout/marksman/sniper/snipervenator
 	name = "Venator sniper rifle"
 	desc = "The customized sniper rifle, fitted with a telescopic sight for extreme accuracy and chambered for a high-ballistic performance centerfire cartridge. It is a superior version of the regular sniper rifle and is decorated with the flag of the bull and tokens of a hunt."
-	icon = 'ModularFallout/!icons/objects/guns/balistic.dmi'
+	icon = 'ModularFallout/!icons/objects/guns/ballistic.dmi'
 	lefthand_file = 'ModularFallout/!icons/onmob/weapons/guns_lefthand.dmi'
 	righthand_file = 'ModularFallout/!icons/onmob/weapons/guns_righthand.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/backslot_weapon.dmi'
+	mob_overlay_icon = 'ModularFallout/!icons/onmob/backslot_weapon.dmi'
 	icon_state = "venator_sniper"
 	item_state = "venator_sniper"
 	fire_delay = 6
@@ -748,7 +734,6 @@
 	suppressor_y_offset = 15
 	suppressor_state = "ar_suppressor"
 	actions_types = list(/datum/action/item_action/toggle_firemode)
-	fire_sound = 'sound/f13weapons/varmint_rifle.ogg'
 
 /obj/item/gun/ballistic/automatic/fallout/assault_rifle/Initialize()
 	. = ..()
@@ -794,7 +779,6 @@
 	zoom_amt = 6
 	zoom_out_amt = 9
 	can_bayonet = FALSE
-	fire_sound = 'sound/weapons/Gunshot_large_silenced.ogg'
 
 //Type 93 Chinese rifle				Keywords: 5.56mm, Automatic, 20 (10-50) round magazine, 26dmg
 /obj/item/gun/ballistic/automatic/fallout/type93
@@ -812,7 +796,6 @@
 	suppressor_x_offset = 27
 	suppressor_y_offset = 27
 	actions_types = list(/datum/action/item_action/toggle_firemode)
-	fire_sound = 'sound/f13weapons/assaultrifle_fire.ogg'
 
 /obj/item/gun/ballistic/automatic/fallout/type93/Initialize()
 	. = ..()
@@ -821,7 +804,7 @@
 /obj/item/gun/ballistic/automatic/fallout/type93/worn //24dmg
 	name = "\improper Worn Type 93"
 	desc = "This Type 93 Chinese assault rifle looks like it has been made in a garage. The bore is shot to hell, the threading is destroyed, but atleast it works."
-	icon = 'ModularFallout/!icons/objects/guns/balistic.dmi'
+	icon = 'ModularFallout/!icons/objects/guns/ballistic.dmi'
 	icon_state = "type93"
 	item_state = "handmade_rifle"
 	fire_delay = 5
@@ -834,7 +817,7 @@
 	desc = "The ultimate refinement of the sniper's art, the Bozar is a scoped, accurate, light machine gun that will make nice big holes in your enemy. Uses 5.56."
 	icon_state = "bozar"
 	item_state = "sniper"
-	slot_flags = SLOT_BACK
+	slot_flags = ITEM_SLOT_BACK
 	mag_type = /obj/item/ammo_box/magazine/m556/rifle
 	burst_shot_delay = 1.5
 	fire_delay = 3
@@ -884,7 +867,7 @@
 /obj/item/gun/ballistic/automatic/fallout/assault_carbine/policerifle
 	name = "Police Rifle"
 	desc = "A pre-war Rifle that has been constantly repaired and rebuilt by the Oasis Police Department. Held together by duct tape and prayers, it somehow still shoots."
-	icon = 'ModularFallout/!icons/objects/guns/balistic.dmi'
+	icon = 'ModularFallout/!icons/objects/guns/ballistic.dmi'
 	lefthand_file = 'ModularFallout/!icons/onmob/weapons/guns_lefthand.dmi'
 	righthand_file = 'ModularFallout/!icons/onmob/weapons/guns_righthand.dmi'
 	icon_state = "rifle-police"
@@ -916,16 +899,15 @@
 	spread = 16 //infamously hard to control on full-auto
 	recoil = 0.25
 	actions_types = list(/datum/action/item_action/toggle_firemode)
-	fire_sound = 'sound/f13weapons/assaultrifle_fire.ogg'
 
 /obj/item/gun/ballistic/automatic/fallout/fnfal/Initialize()
 	. = ..()
 	AddComponent(/datum/component/automatic_fire, 0.13 SECONDS)
 
-obj/item/gun/ballistic/automatic/bar
+/obj/item/gun/ballistic/automatic/fallout/bar
 	name = "automatic rifle (.308)"
 	desc = "An ancient machine gun that looks like outdated even by pre-war standards. It has Colt etched on one-side and Sierra Madre on the other. It is alarmingly heavy for a rifle."
-	icon = 'icons/fallout/objects/guns/bar.dmi'
+	icon = 'ModularFallout/!icons/objects/guns/bar.dmi'
 	slot_flags = ITEM_SLOT_BACK
 	icon_state = "BAR"
 	item_state = "BAR"
@@ -939,7 +921,6 @@ obj/item/gun/ballistic/automatic/bar
 	spread = 10
 	recoil = 0.3
 	actions_types = list(/datum/action/item_action/toggle_firemode)
-	fire_sound = 'sound/f13weapons/automaticrifle_BAR.ogg'
 
 //H&K G11				Keywords: 4.73mm, Automatic, 50 round magazine
 /obj/item/gun/ballistic/automatic/fallout/g11
@@ -988,7 +969,6 @@ obj/item/gun/ballistic/automatic/bar
 	spread = 8
 	can_attachments = FALSE
 	actions_types = null
-	fire_sound = 'sound/f13weapons/assaultrifle_fire.ogg'
 
 /obj/item/gun/ballistic/automatic/fallout/r84/Initialize()
 	. = ..()
@@ -1016,7 +996,6 @@ obj/item/gun/ballistic/automatic/bar
 	can_attachments = TRUE
 	can_scope = FALSE
 	actions_types = list(/datum/action/item_action/toggle_firemode)
-	fire_sound = 'sound/f13weapons/assaultrifle_fire.ogg'
 
 /obj/item/gun/ballistic/automatic/fallout/lsw/Initialize()
 	. = ..()
@@ -1041,58 +1020,10 @@ obj/item/gun/ballistic/automatic/bar
 	var/cover_open = FALSE
 	var/require_twohands = FALSE
 	actions_types = null
-	fire_sound = 'sound/f13weapons/assaultrifle_fire.ogg'
 
 /obj/item/gun/ballistic/automatic/fallout/m1919/Initialize()
 	. = ..()
 	AddComponent(/datum/component/automatic_fire, 0.13 SECONDS)
-
-/obj/item/gun/ballistic/automatic/fallout/m1919/update_icon()
-	icon_state = "M38[cover_open ? "open" : "closed"][magazine ? CEILING(get_ammo(0)/20, 1)*20 : "-empty"]"
-	item_state = "M38[cover_open ? "open" : "closed"][magazine ? "mag" : "nomag"]"
-
-/obj/item/gun/ballistic/automatic/fallout/m1919/examine(mob/user)
-	. = ..()
-	if(cover_open && magazine)
-		. += "<span class='notice'>It seems like you could use an <b>empty hand</b> to remove the magazine.</span>"
-
-/obj/item/gun/ballistic/automatic/fallout/m1919/attack_self(mob/user)
-	cover_open = !cover_open
-	to_chat(user, "<span class='notice'>You [cover_open ? "open" : "close"] [src]'s cover.</span>")
-	if(cover_open)
-		playsound(user, 'sound/weapons/sawopen.ogg', 60, 1)
-	else
-		playsound(user, 'sound/weapons/sawclose.ogg', 60, 1)
-	update_icon()
-
-/obj/item/gun/ballistic/automatic/fallout/m1919/afterattack(atom/target as mob|obj|turf, mob/living/user as mob|obj, flag, params) //what I tried to do here is just add a check to see if the cover is open or not and add an icon_state change because I can't figure out how c-20rs do it with overlays
-	if(cover_open)
-		to_chat(user, "<span class='warning'>[src]'s cover is open! Close it before firing!</span>")
-	else
-		. = ..()
-		update_icon()
-
-/obj/item/gun/ballistic/automatic/fallout/m1919/on_attack_hand(mob/user, act_intent = user.a_intent, unarmed_attack_flags)
-	if(loc != user)
-		..()
-		return	//let them pick it up
-	if(!cover_open || (cover_open && !magazine))
-		..()
-	else if(cover_open && magazine)
-		//drop the mag
-		magazine.update_icon()
-		magazine.forceMove(drop_location())
-		user.put_in_hands(magazine)
-		magazine = null
-		update_icon()
-		to_chat(user, "<span class='notice'>You remove the magazine from [src].</span>")
-		playsound(user, 'sound/weapons/magout.ogg', 60, 1)
-
-/obj/item/gun/ballistic/automatic/fallout/m1919/attackby(obj/item/A, mob/user, params)
-	if(!cover_open && istype(A, mag_type))
-		to_chat(user, "<span class='warning'>[src]'s cover is closed! You can't insert a new mag.</span>")
-		return
-	..()
 
 
 
@@ -1106,7 +1037,7 @@ obj/item/gun/ballistic/automatic/bar
 	desc = "The M72 rifle is of German design. It uses an electromagnetic field to propel rounds at tremendous speed... and pierce almost any obstacle. Its range, accuracy and stopping power is almost unparalleled."
 	icon_state = "m72"
 	item_state = "sniper"
-	slot_flags = SLOT_BACK
+	slot_flags = ITEM_SLOT_BACK
 	mag_type = /obj/item/ammo_box/magazine/m2mm
 	extra_damage = 40
 	burst_size = 1
@@ -1116,7 +1047,6 @@ obj/item/gun/ballistic/automatic/bar
 	zoom_out_amt = 13
 	recoil = 2
 	semi_auto = TRUE
-	fire_sound = 'sound/f13weapons/gauss_rifle.ogg'
 
 /obj/item/gun/ballistic/automatic/fallout/xl70e3
 	name = "xl70e3"
