@@ -1,4 +1,4 @@
-/*/obj/item/gun/ballistic/automatic/pistol
+/obj/item/gun/ballistic/automatic/pistol
 	name = "makarov pistol"
 	desc = "A small, easily concealable 9mm handgun. Has a threaded barrel for suppressors."
 	icon_state = "pistol"
@@ -22,7 +22,7 @@
 	bolt_drop_sound = 'sound/weapons/gun/pistol/drop_small.ogg'
 	fire_sound_volume = 90
 	bolt_wording = "slide"
-	suppressor_x_offset = 4*/
+	suppressor_x_offset = 4
 
 /obj/item/gun/ballistic/automatic/pistol/no_mag
 	spawnwithmagazine = FALSE
@@ -32,7 +32,7 @@
 	var/obj/item/suppressor/S = new(src)
 	install_suppressor(S)
 
-/*
+
 /obj/item/gun/ballistic/automatic/pistol/m1911
 	name = "\improper M1911"
 	desc = "A classic .45 handgun with a small magazine capacity."
@@ -43,7 +43,7 @@
 	fire_sound = 'sound/weapons/gun/pistol/shot_alt.ogg'
 	rack_sound = 'sound/weapons/gun/pistol/rack.ogg'
 	lock_back_sound = 'sound/weapons/gun/pistol/slide_lock.ogg'
-	bolt_drop_sound = 'sound/weapons/gun/pistol/slide_drop.ogg'*/
+	bolt_drop_sound = 'sound/weapons/gun/pistol/slide_drop.ogg'
 
 /obj/item/gun/ballistic/automatic/pistol/m1911/no_mag
 	spawnwithmagazine = FALSE
@@ -63,14 +63,14 @@
 
 
 /obj/item/gun/ballistic/automatic/pistol/deagle/gold
-//	desc = "A gold plated Desert Eagle folded over a million times by superior martian gunsmiths. Uses .50 AE ammo."
-//	icon_state = "deagleg"
-//	inhand_icon_state = "deagleg"
+	desc = "A gold plated Desert Eagle folded over a million times by superior martian gunsmiths. Uses .50 AE ammo."
+	icon_state = "deagleg"
+	inhand_icon_state = "deagleg"
 
 /obj/item/gun/ballistic/automatic/pistol/deagle/camo
-//	desc = "The perfect gun for going bear hunting in the palace of Versailles. Uses .50 AE ammo."
-//	icon_state = "deaglecamo"
-//	inhand_icon_state = "deagleg
+	desc = "The perfect gun for going bear hunting in the palace of Versailles. Uses .50 AE ammo."
+	icon_state = "deaglecamo"
+	inhand_icon_state = "deagleg"
 
 /obj/item/gun/ballistic/automatic/pistol/aps
 	name = "stechkin APS machine pistol"
