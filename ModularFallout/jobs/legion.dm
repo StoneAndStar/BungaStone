@@ -11,7 +11,7 @@
 	description = "You have recently come of age or been inducted into Caesar's Legion. You have absolutely no training, and are expected to follow every whim of the Decanii and your Centurion. Respect the soldiers of higher rank."
 	supervisors = "the Decanii and the Centurion"
 
-	outfit = /datum/outfit/job/legion/legionnaire/recruit
+	outfit = /datum/outfit/job/legion/legionnaire
 
 	access = list(ACCESS_LEGION)
 	minimal_access = list(ACCESS_LEGION)
