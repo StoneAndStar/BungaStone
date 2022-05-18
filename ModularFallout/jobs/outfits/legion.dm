@@ -212,6 +212,10 @@
 	id = /obj/item/card/id
 	suit = null
 	head = null
+	glasses = /obj/item/clothing/glasses/welding
 	mask = /obj/item/clothing/mask/bandana/fallout/legion/camp
-	glasses = /obj/item/clothing/glasses/sunglasses
+	gloves = /obj/item/clothing/gloves/fallout/legion/forgemaster
+	shoes = /obj/item/clothing/shoes/fallout/military/plated
+	neck = /obj/item/clothing/neck/apron/forgemaster
+	uniform = /obj/item/clothing/under/fallout/legion/campfollowerm
 	backpack_contents = list()
