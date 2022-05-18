@@ -2,7 +2,7 @@
 	name = "glasses template"
 	desc = "template"
 	icon = 'ModularFallout/!icons/clothing/glasses.dmi'
-	worn_icon = 'ModularFallout/!icons/clothing/glasses.dmi'
+	worn_icon = 'ModularFallout/!icons/onmob/clothes/eyes.dmi'
 
 /obj/item/clothing/glasses/night/fallout
 	name = "night glasses template"
