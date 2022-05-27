@@ -6,7 +6,7 @@
 
 
 //SMG TEMPLATE
-/obj/item/gun/ballistic/automatic/fallout/smg/
+/obj/item/gun/ballistic/automatic/fallout/smg
 	name = "SMG TEMPLATE"
 	desc = "should not exist"
 	icon = 'ModularFallout/!icons/objects/guns/ballistic.dmi'

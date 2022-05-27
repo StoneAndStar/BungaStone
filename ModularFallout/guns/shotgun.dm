@@ -328,7 +328,7 @@
 
 
 //Riot shotgun							Keywords: Shotgun, Semi-auto, 12 round magazine, Pistol grip
-/obj/item/gun/ballistic/automatic/shotgun/riot
+/obj/item/gun/ballistic/automatic/fallout/shotgun/riot
 	name = "Riot shotgun"
 	desc = "A compact riot shotgun with a large ammo drum and semi-automatic fire, designed to fight in close quarters."
 	icon = 'ModularFallout/!icons/objects/guns/ballistic.dmi'
@@ -345,7 +345,7 @@
 	semi_auto = TRUE
 	fire_sound = 'sound/f13weapons/riot_shotgun.ogg'
 
-/obj/item/gun/ballistic/automatic/shotgun/pancor
+/obj/item/gun/ballistic/automatic/fallout/shotgun/pancor
 	name = "Pancor Jackhammer"
 	desc = "A drum-loaded, fully automatic shotgun. The pinnacle of turning things into swiss cheese."
 	icon_state = "pancor"

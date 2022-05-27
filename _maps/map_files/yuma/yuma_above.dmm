@@ -18,26 +18,30 @@
 /turf/open/floor/wood,
 /area/fallout)
 "tD" = (
-/obj/effect/landmark/start/brotherhood/headpaladin,
-/turf/open/floor/wood,
+/obj/effect/landmark/start/fallout/brotherhood/headpaladin,
+/turf/open/floor/plating/sand/fallout,
 /area/fallout)
 "xv" = (
 /turf/closed/wall/fallout/store,
 /area/fallout)
 "yV" = (
-/obj/item/gun/ballistic/automatic/pistol/n99,
+/obj/item/gun/ballistic/automatic/fallout/pistol/n99,
 /turf/open/floor/wood,
 /area/fallout)
 "AA" = (
 /obj/effect/landmark/start/new_player,
 /turf/open/floor/plating/sand/fallout,
 /area/fallout)
+"CW" = (
+/obj/effect/landmark/start/fallout/paladin,
+/turf/open/floor/plating/sand/fallout,
+/area/fallout)
 "Mp" = (
-/obj/item/gun/ballistic/automatic/pistol/pistol14,
+/obj/item/gun/ballistic/automatic/fallout/pistol/pistol14,
 /turf/open/floor/wood,
 /area/fallout)
 "MQ" = (
-/obj/item/gun/ballistic/automatic/pistol/ninemil,
+/obj/item/gun/ballistic/automatic/fallout/pistol/ninemil,
 /turf/open/floor/wood,
 /area/fallout)
 "PQ" = (
@@ -46,6 +50,10 @@
 /area/fallout)
 "QQ" = (
 /turf/open/floor/plasteel,
+/area/fallout)
+"UA" = (
+/obj/effect/landmark/start/fallout/seniorpaladin,
+/turf/open/floor/plating/sand/fallout,
 /area/fallout)
 "UC" = (
 /obj/item/debug/human_spawner,
@@ -26102,13 +26110,13 @@ ZZ
 WH
 MQ
 cR
-tD
+cR
 cR
 cR
 cR
 WH
 ZZ
-ZZ
+tD
 ZZ
 ZZ
 ZZ
@@ -26359,13 +26367,13 @@ ZZ
 WH
 Mp
 cR
-tD
+cR
 cR
 cR
 cR
 cR
 ZZ
-ZZ
+UA
 ZZ
 ZZ
 ZZ
@@ -26616,13 +26624,13 @@ ZZ
 WH
 bP
 cR
-tD
+cR
 cR
 cR
 cR
 WH
 ZZ
-ZZ
+CW
 ZZ
 ZZ
 ZZ

@@ -3705,6 +3705,7 @@
 #include "ModularFallout\clothing\under\police.dm"
 #include "ModularFallout\clothing\under\under.dm"
 #include "ModularFallout\guns\!fallout.dm"
+#include "ModularFallout\guns\automatic.dm"
 #include "ModularFallout\guns\pistols.dm"
 #include "ModularFallout\guns\revolver.dm"
 #include "ModularFallout\guns\ammo\lmg.dm"
