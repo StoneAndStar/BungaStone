@@ -28,7 +28,7 @@
 	item_state = "shotgun"
 	slowdown = 0.4
 	w_class = WEIGHT_CLASS_BULKY
-	mag_type = /obj/item/ammo_box/magazine/m22smg
+	mag_type = /obj/item/ammo_box/magazine/fallout/m22smg
 	can_unsuppress = FALSE
 	autofire_shot_delay = 1.75
 	spread = 18
@@ -45,7 +45,7 @@
 	item_state = "14toploader"
 	slowdown = 0.25
 	w_class = WEIGHT_CLASS_BULKY
-	mag_type = /obj/item/ammo_box/magazine/smg14
+	mag_type = /obj/item/ammo_box/magazine/fallout/smg14
 	autofire_shot_delay = 3.25
 	spread = 9
 	recoil = 0.35
@@ -59,7 +59,7 @@
 	desc = "An inexpensive submachine gun, chambered in 9mm. Very high rate of fire in bursts."
 	icon_state = "grease_gun"
 	item_state = "smg9mm"
-	mag_type = /obj/item/ammo_box/magazine/greasegun
+	mag_type = /obj/item/ammo_box/magazine/fallout/greasegun
 	spread = 8
 	burst_shot_delay = 2.75
 	autofire_shot_delay = 2.5
@@ -91,8 +91,8 @@
 	icon_state = "smg10mm"
 	item_state = "smg10mm"
 	icon_prefix = "smg10mm"
-	mag_type = /obj/item/ammo_box/magazine/m10mm_adv
-	init_mag_type = /obj/item/ammo_box/magazine/m10mm_adv/ext
+	mag_type = /obj/item/ammo_box/magazine/fallout/m10mm_adv
+	init_mag_type = /obj/item/ammo_box/magazine/fallout/m10mm_adv/ext
 	autofire_shot_delay = 2.25
 	spread = 12
 	recoil = 0.05
@@ -106,7 +106,7 @@
 /obj/item/gun/ballistic/automatic/fallout/smg/smg10mm/worn
 	name = "worn-out 10mm submachine gun"
 	desc = "Mass-produced weapon from the Great War, this one has seen use ever since. Grip is wrapped in tape to keep the plastic from crumbling, the metals are oxidizing, but the gun still works."
-	init_mag_type = /obj/item/ammo_box/magazine/m10mm_adv/ext
+	init_mag_type = /obj/item/ammo_box/magazine/fallout/m10mm_adv/ext
 	worn_out = TRUE
 	spread = 10
 
@@ -120,7 +120,7 @@
 	desc = "A lightweight, burst-fire submachine gun, for when you really want someone dead. Uses 9mm rounds."
 	icon_state = "uzi"
 	item_state = "uzi"
-	mag_type = /obj/item/ammo_box/magazine/uzim9mm
+	mag_type = /obj/item/ammo_box/magazine/fallout/uzim9mm
 	fire_delay = 3
 	burst_shot_delay = 2.2
 	autofire_shot_delay = 2
@@ -139,7 +139,7 @@
 	desc = "Post-war submachine gun made in workshops in Phoenix, a copy of a simple old foreign design."
 	icon_state = "cg45"
 	item_state = "cg45"
-	mag_type = /obj/item/ammo_box/magazine/cg45
+	mag_type = /obj/item/ammo_box/magazine/fallout/cg45
 	spread = 12
 	fire_delay = 3.5
 	recoil = 0.1
@@ -157,8 +157,8 @@
 	item_state = "shotgun"
 	slowdown = 0.4
 	w_class = WEIGHT_CLASS_BULKY
-	mag_type = /obj/item/ammo_box/magazine/tommygunm45
-	init_mag_type = /obj/item/ammo_box/magazine/tommygunm45/stick
+	mag_type = /obj/item/ammo_box/magazine/fallout/tommygunm45
+	init_mag_type = /obj/item/ammo_box/magazine/fallout/tommygunm45/stick
 	autofire_shot_delay = 2.25
 	burst_shot_delay = 2.75
 	fire_delay = 3.75
@@ -173,7 +173,7 @@
 /obj/item/gun/ballistic/automatic/fallout/smg/tommygun/whitelegs
 	name = "Storm Drum"
 	desc = "A recovered ancient Thompson from an armory far up North. Commonly used by raiders of the White Legs tribe."
-	mag_type = /obj/item/ammo_box/magazine/tommygunm45/stick
+	mag_type = /obj/item/ammo_box/magazine/fallout/tommygunm45/stick
 	fire_delay = 3.75
 	spread = 19
 
@@ -184,7 +184,7 @@
 	icon_state = "p90"
 	item_state = "m90"
 	w_class = WEIGHT_CLASS_NORMAL
-	mag_type = /obj/item/ammo_box/magazine/m10mm_p90
+	mag_type = /obj/item/ammo_box/magazine/fallout/m10mm_p90
 	burst_size = 1
 	fire_delay = 3
 	spread = 14
@@ -212,7 +212,7 @@
 	desc = "An integrally suppressed submachinegun chambered in 9mm."
 	icon_state = "mp5"
 	item_state = "fnfal"
-	mag_type = /obj/item/ammo_box/magazine/uzim9mm
+	mag_type = /obj/item/ammo_box/magazine/fallout/uzim9mm
 	spread = 6
 	fire_delay = 3.5
 	burst_shot_delay = 2
@@ -233,7 +233,7 @@
 	icon_state = "pps"
 	slowdown = 0.3
 	w_class = WEIGHT_CLASS_BULKY
-	mag_type = /obj/item/ammo_box/magazine/pps9mm
+	mag_type = /obj/item/ammo_box/magazine/fallout/pps9mm
 	spread = 20
 	fire_delay = 6
 	autofire_shot_delay = 2.25
@@ -260,7 +260,7 @@
 	desc = "The M1 Carbine was mass produced during some old war, and at some point NCR found stockpiles and rechambered them to 10mm to make up for the fact their service rifle production can't keep up with demand."
 	icon_state = "m1carbine"
 	item_state = "rifle"
-	mag_type = /obj/item/ammo_box/magazine/m10mm_adv
+	mag_type = /obj/item/ammo_box/magazine/fallout/m10mm_adv
 	burst_size = 1
 	fire_delay = 3
 	spread = 2
@@ -327,7 +327,7 @@
 	desc = "A WT-550 Personal Defense Weapon, manufactured by West Tek. It fires 4.73mm caseless rounds."
 	item_state = "m90"
 	icon_state = "WT550"
-	mag_type = /obj/item/ammo_box/magazine/m473/small
+	mag_type = /obj/item/ammo_box/magazine/fallout/m473/small
 	burst_size = 1
 	slowdown = 0.2
 	autofire_shot_delay = 1.75
@@ -358,8 +358,8 @@
 	item_state = "varmintrifle"
 	force = 23
 	slowdown = 0.3
-	mag_type = /obj/item/ammo_box/magazine/m556/rifle
-	init_mag_type = /obj/item/ammo_box/magazine/m556/rifle/small
+	mag_type = /obj/item/ammo_box/magazine/fallout/m556/rifle
+	init_mag_type = /obj/item/ammo_box/magazine/fallout/m556/rifle/small
 	fire_delay = 3.5
 	burst_size = 1
 	spread = 0
@@ -374,7 +374,7 @@
 	desc = "A integrally suppressed carbine, known for being one of the quietest firearms ever made. Chambered in 9mm."
 	icon_state = "delisle"
 	item_state = "varmintrifle"
-	mag_type = /obj/item/ammo_box/magazine/m9mmds
+	mag_type = /obj/item/ammo_box/magazine/fallout/m9mmds
 	fire_delay = 4
 	burst_size = 1
 	spread = 0
@@ -388,7 +388,7 @@
 	desc = "A integrally suppressed carbine, known for being one of the quietest firearms ever made. This modified version is often used by the Brotherhood of Steel. Its stock has been replaced by post-war polymer furniture, with space to mount a scope. Chambered in .45 ACP."
 	icon_state = "commando"
 	item_state = "commando"
-	mag_type = /obj/item/ammo_box/magazine/m45exp
+	mag_type = /obj/item/ammo_box/magazine/fallout/m45exp
 	can_scope = TRUE
 	semi_auto = TRUE
 	automatic_burst_overlay = FALSE
@@ -428,7 +428,7 @@
 	icon_state = "combat_rifle"
 	item_state = "combatrifle"
 	icon_prefix = "combatrifle"
-	mag_type = /obj/item/ammo_box/magazine/tommygunm45/stick
+	mag_type = /obj/item/ammo_box/magazine/fallout/tommygunm45/stick
 	fire_delay = 3
 	burst_size = 1
 	spread = 1
@@ -444,7 +444,7 @@
 	icon_state = "service_rifle"
 	item_state = "servicerifle"
 	icon_prefix = "servicerifle"
-	mag_type = /obj/item/ammo_box/magazine/m556/rifle
+	mag_type = /obj/item/ammo_box/magazine/fallout/m556/rifle
 	slowdown = 0.3
 	fire_delay = 3
 	burst_size = 1
@@ -463,7 +463,7 @@
 	desc = "A 5.56x45mm rifle custom built off of a reproduction model AR15-style weapon. Sports a fancy holographic sight picture, forward grip, and a comfortable synthetic thumbhole stock. Bang bang."
 	icon_state = "alr15"
 	item_state = "alr15"
-	mag_type = /obj/item/ammo_box/magazine/m556/rifle
+	mag_type = /obj/item/ammo_box/magazine/fallout/m556/rifle
 	fire_delay = 5.5
 	burst_size = 2
 	spread = 1
@@ -496,7 +496,7 @@
 	desc = "A marksman carbine built off the AR platform chambered in 5.56x45. Seen heavy usage in pre-war conflicts. This particular model is a civilian version and is semi-auto only."
 	icon_state = "marksman_rifle"
 	item_state = "marksman"
-	mag_type = /obj/item/ammo_box/magazine/m556/rifle
+	mag_type = /obj/item/ammo_box/magazine/fallout/m556/rifle
 	fire_delay = 3
 	burst_size = 1
 	spread = 1
@@ -525,7 +525,7 @@
 	icon_prefix = "assault_carbine"
 	icon_state = "rifle-police"
 	item_state = "assault_carbine"
-	init_mag_type = /obj/item/ammo_box/magazine/m556/rifle
+	init_mag_type = /obj/item/ammo_box/magazine/fallout/m556/rifle
 	spread = 1.1
 	fire_delay = 4.5
 	can_suppress = FALSE
@@ -540,7 +540,7 @@
 	item_state = "308"
 	icon_prefix = "308"
 	force = 20
-	mag_type = /obj/item/ammo_box/magazine/m762
+	mag_type = /obj/item/ammo_box/magazine/fallout/m762
 	extra_speed = 500
 	burst_size = 1
 	fire_delay = 4
@@ -569,7 +569,7 @@
 	icon_state = "slr"
 	item_state = "slr"
 	force = 20
-	mag_type = /obj/item/ammo_box/magazine/m762
+	mag_type = /obj/item/ammo_box/magazine/fallout/m762
 	burst_size = 1
 	fire_delay = 5
 	spread = 1
@@ -590,7 +590,7 @@
 	item_state = "rifle"
 	icon_prefix = "308"
 	force = 20
-	mag_type = /obj/item/ammo_box/magazine/garand308
+	mag_type = /obj/item/ammo_box/magazine/fallout/garand308
 	fire_delay = 5.5
 	burst_size = 1
 	spread = 1
@@ -638,7 +638,7 @@
 	righthand_file = 'ModularFallout/!icons/onmob/weapons/guns_righthand.dmi'
 	icon_state = "sks"
 	item_state = "sks"
-	mag_type = /obj/item/ammo_box/magazine/sks
+	mag_type = /obj/item/ammo_box/magazine/fallout/sks
 	fire_delay = 5.5
 	extra_speed = 100
 	bayonet_state = "bayonet"
@@ -653,7 +653,7 @@
 	icon_prefix = "sniperrifle"
 	icon_state = "sniper_rifle"
 	item_state = "sniper_rifle"
-	mag_type = /obj/item/ammo_box/magazine/w308
+	mag_type = /obj/item/ammo_box/magazine/fallout/w308
 	fire_delay = 8
 	burst_size = 1
 	extra_speed = 800
@@ -719,7 +719,7 @@
 	desc = "The R91 was the standard US Army assault rifle, and so saw wide-spread use after the war. Most are worn out by now."
 	icon_state = "assault_rifle"
 	item_state = "fnfal"
-	mag_type = /obj/item/ammo_box/magazine/m556/rifle
+	mag_type = /obj/item/ammo_box/magazine/fallout/m556/rifle
 	fire_delay = 2.5
 	slowdown = 0.45
 	spread = 10
@@ -746,7 +746,7 @@
 	desc = "A customized R91 assault rifle, with an integrated suppressor, small scope, cut down stock and polymer furniture."
 	icon_state = "infiltrator"
 	item_state = "fnfal"
-	mag_type = /obj/item/ammo_box/magazine/m556/rifle
+	mag_type = /obj/item/ammo_box/magazine/fallout/m556/rifle
 	spread = 9
 	fire_delay = 3.5
 	burst_shot_delay = 2
@@ -767,7 +767,7 @@
 	desc = "A lightweight assault rifle manufactured by the Brotherhood of Steel with a folding stock, based on weapons from the R-series platforms. It is generally issued to Brotherhood Knights for scouting missions."
 	icon_state = "r93"
 	item_state = "r93"
-	mag_type = /obj/item/ammo_box/magazine/m556/rifle
+	mag_type = /obj/item/ammo_box/magazine/fallout/m556/rifle
 	fire_delay = 3.25
 	spread = 1
 	burst_size = 1
@@ -787,7 +787,7 @@
 	icon_state = "type93"
 	item_state = "handmade_rifle"
 	icon_prefix = "handmade_rifle"
-	mag_type = /obj/item/ammo_box/magazine/m556/rifle
+	mag_type = /obj/item/ammo_box/magazine/fallout/m556/rifle
 	fire_delay = 4
 	spread = 10
 	recoil = 0.1
@@ -818,7 +818,7 @@
 	icon_state = "bozar"
 	item_state = "sniper"
 	slot_flags = ITEM_SLOT_BACK
-	mag_type = /obj/item/ammo_box/magazine/m556/rifle
+	mag_type = /obj/item/ammo_box/magazine/fallout/m556/rifle
 	burst_shot_delay = 1.5
 	fire_delay = 3
 	spread = 8
@@ -842,7 +842,7 @@
 	item_state = "assault_carbine"
 	icon_prefix = "assault_carbine"
 	slot_flags = 0
-	mag_type = /obj/item/ammo_box/magazine/m5mm
+	mag_type = /obj/item/ammo_box/magazine/fallout/m5mm
 	fire_delay = 3
 	burst_shot_delay = 2.0
 	spread = 10 //high-velocity
@@ -895,7 +895,7 @@
 	extra_damage = 28
 	fire_delay = 3.5
 	autofire_shot_delay = 3
-	mag_type = /obj/item/ammo_box/magazine/m762
+	mag_type = /obj/item/ammo_box/magazine/fallout/m762
 	spread = 16 //infamously hard to control on full-auto
 	recoil = 0.25
 	actions_types = list(/datum/action/item_action/toggle_firemode)
@@ -913,7 +913,7 @@
 	item_state = "BAR"
 	icon_prefix = "rifle"
 	automatic = 1
-	mag_type = /obj/item/ammo_box/magazine/m762/ext
+	mag_type = /obj/item/ammo_box/magazine/fallout/m762/ext
 	force = 24 //club
 	slowdown = 1.5 //really goddamn big
 	autofire_shot_delay = 2.3
@@ -928,7 +928,7 @@
 	desc = "This experimental gun fires a caseless cartridge consisting of a block of propellant with a bullet buried inside. The weight and space savings allows for a very high magazine capacity. Chambered in 4.73mm."
 	icon_state = "g11"
 	item_state = "arg"
-	mag_type = /obj/item/ammo_box/magazine/m473
+	mag_type = /obj/item/ammo_box/magazine/fallout/m473
 	burst_size = 1
 	extra_damage = 16
 	fire_delay = 2
@@ -961,7 +961,7 @@
 	icon_state = "R84"
 	item_state = "R84"
 	slowdown = 1
-	mag_type = /obj/item/ammo_box/magazine/lmg
+	mag_type = /obj/item/ammo_box/magazine/fallout/lmg
 	extra_damage = 23
 	fire_delay = 6
 	burst_shot_delay = 2.5
@@ -984,7 +984,7 @@
 	icon_state = "lsw"
 	item_state = "lsw"
 	slowdown = 1
-	mag_type = /obj/item/ammo_box/magazine/m556/rifle
+	mag_type = /obj/item/ammo_box/magazine/fallout/m556/rifle
 	fire_delay = 4.5
 	burst_shot_delay = 2.25
 	extra_damage = 23
@@ -1010,7 +1010,7 @@
 	item_state = "M38"
 	slot_flags = 0
 	slowdown = 1.25
-	mag_type = /obj/item/ammo_box/magazine/mm762
+	mag_type = /obj/item/ammo_box/magazine/fallout/mm762
 	burst_shot_delay = 1.5
 	autofire_shot_delay = 2.5
 	fire_delay = 4
@@ -1038,7 +1038,7 @@
 	icon_state = "m72"
 	item_state = "sniper"
 	slot_flags = ITEM_SLOT_BACK
-	mag_type = /obj/item/ammo_box/magazine/m2mm
+	mag_type = /obj/item/ammo_box/magazine/fallout/m2mm
 	extra_damage = 40
 	burst_size = 1
 	fire_delay = 10
@@ -1053,7 +1053,7 @@
 	desc = "This was an experimental weapon at the time of the war. Manufactured, primarily, from high-strength polymers, the weapon is almost indestructible. It's light, fast firing, accurate, and can be broken down without the use of any tools. Chamebered in 5.56mm."
 	icon_state = "xl70e3"
 	item_state = "xl70e3"
-	mag_type = /obj/item/ammo_box/magazine/m556/rifle
+	mag_type = /obj/item/ammo_box/magazine/fallout/m556/rifle
 	fire_delay = 2
 	burst_shot_delay = 2
 	automatic = 1

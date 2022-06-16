@@ -6,10 +6,14 @@
 	department_head = list("Centurion")
 	total_positions = 5
 	spawn_positions = 5
-	selection_color =  "#861c15"
+	selection_color =  "#c43737"
 	maptype = "yuma"
+
+	//Not used, just a dummy to finish code
 	description = "You have recently come of age or been inducted into Caesar's Legion. You have absolutely no training, and are expected to follow every whim of the Decanii and your Centurion. Respect the soldiers of higher rank."
 	supervisors = "the Decanii and the Centurion"
+
+
 
 	outfit = /datum/outfit/job/legion/legionnaire
 
@@ -80,7 +84,6 @@
 	minimal_access = list(ACCESS_LEGION,  ACCESS_LEGION_COMMAND)
 	exp_requirements = 600
 
-	selection_color = "#632b27"
 	outfit = /datum/outfit/job/legion/legionnaire/decan/rec
 
 
@@ -96,7 +99,6 @@
 	minimal_access = list(ACCESS_LEGION,  ACCESS_LEGION_COMMAND)
 	exp_requirements = 720
 
-	selection_color = "#632b27"
 	outfit = /datum/outfit/job/legion/legionnaire/decan/prime
 
 
@@ -111,8 +113,6 @@
 	supervisors = "the Centurion"
 	access = list(ACCESS_LEGION, ACCESS_LEGION_COMMAND)
 	minimal_access = list(ACCESS_LEGION,  ACCESS_LEGION_COMMAND)
-
-	selection_color = "#632b27"
 
 	outfit = /datum/outfit/job/legion/legionnaire/venator
 
@@ -130,7 +130,6 @@
 	minimal_access = list(ACCESS_LEGION,  ACCESS_LEGION_COMMAND)
 	exp_requirements = 900
 
-	selection_color = "#632b27"
 	outfit = /datum/outfit/job/legion/legionnaire/decan/vet
 
 	display_order = JOB_DISPLAY_ORDER_VETDEC
@@ -141,11 +140,9 @@
 	total_positions = 1
 	spawn_positions = 1
 	exp_requirements = 1500
-	selection_color = "#632b27"
 
 	outfit = /datum/outfit/job/legion/legionnaire/orator
 
-	selection_color = "#b94f48"
 
 	access = list(ACCESS_LEGION, ACCESS_LEGION_COMMAND)
 	minimal_access = list(ACCESS_LEGION, ACCESS_LEGION_COMMAND)
@@ -161,7 +158,7 @@
 	access = list(ACCESS_LEGION, ACCESS_LEGION_COMMAND)
 	minimal_access = list(ACCESS_LEGION,  ACCESS_LEGION_COMMAND)
 	exp_requirements = 1500
-	selection_color = "#632b27"
+	selection_color = "#ab3030"
 
 	outfit = /datum/outfit/job/legion/legionnaire/centurion
 
@@ -210,6 +207,7 @@
 
 	display_order = JOB_DISPLAY_ORDER_SLAVEMASTER
 
+/*Legit can't code fogring in lmao
 /datum/job/legion/campfollower
 	title = "Legion Forgemaster"
 	faction = "Station"
@@ -226,7 +224,7 @@
 	access = list(ACCESS_LEGION)
 	minimal_access = list(ACCESS_LEGION)
 
-	display_order = JOB_DISPLAY_ORDER_FORGEMASTER
+	display_order = JOB_DISPLAY_ORDER_FORGEMASTER*/
 
 /datum/job/legion/campfollower/slave
 	title = "Legion Slave"

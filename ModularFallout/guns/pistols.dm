@@ -11,7 +11,7 @@
 	slot_flags = ITEM_SLOT_BELT
 	can_suppress = FALSE
 	force = 12 //Pistol whip
-	mag_type = /obj/item/ammo_box/magazine/m10mm_adv/simple
+	mag_type = /obj/item/ammo_box/magazine/fallout/m10mm_adv/simple
 	spread = 2
 	burst_size = 1
 	fire_delay = 4
@@ -41,7 +41,7 @@
 	name = ".22 pistol"
 	desc = "The silenced .22 pistol is a sporting handgun with an integrated silencer."
 	icon_state = "silenced22"
-	mag_type = /obj/item/ammo_box/magazine/m22
+	mag_type = /obj/item/ammo_box/magazine/fallout/m22
 	w_class = WEIGHT_CLASS_TINY
 	can_suppress = FALSE
 	suppressed = 1
@@ -52,7 +52,7 @@
 	name = "10mm pistol"
 	desc = "A pre-war large-framed, gas-operated advanced 10mm pistol."
 	icon_state = "n99"
-	mag_type = /obj/item/ammo_box/magazine/m10mm_adv/simple
+	mag_type = /obj/item/ammo_box/magazine/fallout/m10mm_adv/simple
 	fire_delay = 4
 	recoil = 0.05
 //	can_automatic = TRUE
@@ -80,7 +80,7 @@
 	name = "Type 17"
 	desc = "Chinese military sidearm at the time of the Great War. The ones around are old and worn, but somewhat popular due to the long barrel and rechambered in 10mm after the original ammo ran dry decades ago."
 	icon_state = "chinapistol"
-	mag_type = /obj/item/ammo_box/magazine/m10mm_adv/simple
+	mag_type = /obj/item/ammo_box/magazine/fallout/m10mm_adv/simple
 	fire_delay = 5
 	recoil = 0.1
 	spread = 3
@@ -92,7 +92,7 @@
 	name = "Browning Hi-power"
 	desc = "A mass produced pre-war Browning Hi-power 9mm pistol."
 	icon_state = "ninemil"
-	mag_type = /obj/item/ammo_box/magazine/m9mmds
+	mag_type = /obj/item/ammo_box/magazine/fallout/m9mmds
 	weapon_weight = WEAPON_LIGHT
 	w_class = WEIGHT_CLASS_SMALL
 	fire_delay = 2.5
@@ -114,7 +114,7 @@
 	icon_state = "sig"
 	w_class = WEIGHT_CLASS_SMALL
 	weapon_weight = WEAPON_LIGHT
-	mag_type = /obj/item/ammo_box/magazine/m9mm
+	mag_type = /obj/item/ammo_box/magazine/fallout/m9mm
 	fire_delay = 3.25
 	suppressor_x_offset = 30
 	suppressor_y_offset = 20
@@ -125,7 +125,7 @@
 	name = "Beretta M9FS"
 	desc = "One of the more common 9mm pistols, the Beretta is popular due to its reliability, 15 round magazine and good looks."
 	icon_state = "beretta"
-	mag_type = /obj/item/ammo_box/magazine/m9mmds
+	mag_type = /obj/item/ammo_box/magazine/fallout/m9mmds
 	fire_delay = 3.5
 	weapon_weight = WEAPON_LIGHT
 	spread = 1
@@ -149,7 +149,7 @@
 	desc = "A classic .45 handgun with a small magazine capacity."
 	icon_state = "m1911"
 	w_class = WEIGHT_CLASS_NORMAL
-	mag_type = /obj/item/ammo_box/magazine/m45
+	mag_type = /obj/item/ammo_box/magazine/fallout/m45
 	recoil = 0.15
 	suppressor_x_offset = 30
 	suppressor_y_offset = 21
@@ -168,7 +168,7 @@
 	name = "Mk. 23"
 	desc = "A very tactical pistol chambered in .45 ACP with a built in laser sight and attachment point for a seclite."
 	icon_state = "mk23"
-	mag_type = /obj/item/ammo_box/magazine/m45exp
+	mag_type = /obj/item/ammo_box/magazine/fallout/m45exp
 	fire_delay = 3.5
 	spread = 1
 	can_flashlight = TRUE
@@ -190,7 +190,7 @@
 	name = "Desert Eagle"
 	desc = "A robust .44 magnum semi-automatic handgun."
 	icon_state = "deagle"
-	mag_type = /obj/item/ammo_box/magazine/m44
+	mag_type = /obj/item/ammo_box/magazine/fallout/m44
 	fire_delay = 4
 	force = 15
 	recoil = 0.2
@@ -201,14 +201,14 @@
 	name = "El Capitan"
 	desc = "The Captain loves his gun, despite some silly gunsmith adding some gas venting to the barrel after his second visit to the surgeon for recoil-related wrist injuries."
 	icon_state = "elcapitan"
-	mag_type = /obj/item/ammo_box/magazine/m14mm
+	mag_type = /obj/item/ammo_box/magazine/fallout/m14mm
 
 //Automag			Keywords: .44 Magnum, Semi-auto, Long barrel, 7 rounds, Heavy. Special modifiers: bullet speed +300
 /obj/item/gun/ballistic/automatic/fallout/pistol/automag
 	name = "Automag"
 	desc = "A long-barreled .44 magnum semi-automatic handgun."
 	icon_state = "automag"
-	mag_type = /obj/item/ammo_box/magazine/automag
+	mag_type = /obj/item/ammo_box/magazine/fallout/automag
 	recoil = 0.2
 	can_suppress = FALSE
 
@@ -218,7 +218,7 @@
 	name = "14mm pistol"
 	desc = "A Swiss SIG-Sauer 14mm handgun, powerful but a little inaccurate"
 	icon_state = "pistol14"
-	mag_type = /obj/item/ammo_box/magazine/m14mm
+	mag_type = /obj/item/ammo_box/magazine/fallout/m14mm
 	force = 15
 	fire_delay = 5
 	recoil = 0.25
@@ -247,4 +247,4 @@
 
 /obj/item/gun/ballistic/automatic/fallout/pistol/pistoltesting
 	name = "pistol"
-	mag_type = /obj/item/ammo_box/magazine/testbullet
+	mag_type = /obj/item/ammo_box/magazine/fallout/testbullet

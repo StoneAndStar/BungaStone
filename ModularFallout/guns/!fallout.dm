@@ -1,8 +1,12 @@
 //THIS IS A LIST OF DUMMY VARAIABLES
 //I KNOW THIS IS THE DEFINITION OF SHITCODE BUT I HAVE DECIDED TO DO THIS IN 7 DAYS. CUT ME SOME SLACK
 /obj/item/gun/ballistic/automatic/fallout
+	icon = 'ModularFallout/!icons/objects/guns/ballistic.dmi'
+	lefthand_file = 'ModularFallout/!icons/onmob/weapons/guns_lefthand.dmi'
+	righthand_file = 'ModularFallout/!icons/onmob/weapons/guns_righthand.dmi'
+
 //THIS ONLY EXISTS FOR DUMMY VARIABLES
-//DETSTROY THESE LATER
+//DESTROY THESE LATER
 	var/burst_shot_delay
 	var/autofire_shot_delay
 	var/automatic_burst_overlay
@@ -25,3 +29,8 @@
 	var/en_bloc
 	var/auto_eject
 	var/mob_overlay_icon
+
+
+//This is a dummy for sprite purposes
+/obj/item/ammo_box/magazine/fallout
+	icon = 'ModularFallout/!icons/objects/guns/ammo.dmi'

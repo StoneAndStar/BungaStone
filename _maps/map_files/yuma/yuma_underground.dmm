@@ -1,10 +1,10 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "cyb" = (
 /turf/open/floor/plating/dirt/jungle/wasteland,
-/area/space)
+/area/ruin/powered)
 "ylS" = (
 /turf/closed/mineral/random/jungle,
-/area/space)
+/area/ruin/powered)
 
 (1,1,1) = {"
 ylS

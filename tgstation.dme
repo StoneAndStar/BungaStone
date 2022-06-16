@@ -15,7 +15,6 @@
 // BEGIN_INCLUDE
 #include "_maps\_basemap.dm"
 #include "_maps\map_files\generic\CentCom.dmm"
-#include "_maps\map_files\yuma\yuma_above.dmm"
 #include "code\_compile_options.dm"
 #include "code\world.dm"
 #include "code\__DEFINES\__BungalowDefines.dm"
@@ -3724,6 +3723,7 @@
 #include "ModularFallout\jobs\brotherhood.dm"
 #include "ModularFallout\jobs\enclave.dm"
 #include "ModularFallout\jobs\followers.dm"
+#include "ModularFallout\jobs\legion.dm"
 #include "ModularFallout\jobs\ncr.dm"
 #include "ModularFallout\jobs\police.dm"
 #include "ModularFallout\jobs\town.dm"
@@ -3745,7 +3745,6 @@
 #include "ModularFallout\landmarks\town.dm"
 #include "ModularFallout\landmarks\vault.dm"
 #include "ModularFallout\landmarks\wasteland.dm"
-#include "ModularFallout\maps\yuma.dm"
 #include "ModularFallout\melee\1h.dm"
 #include "ModularTegustation\anomaly_items\anomaly_tools.dm"
 #include "ModularTegustation\anomaly_items\anomaly_weapons.dm"

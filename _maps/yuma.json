@@ -15,6 +15,7 @@
 	"traits": [
 		{
 			"Up" : 1,
+			"Baseturf" : "/turf/open/openspace",
 			"Linkage" : "Cross"
 		},
 		{
