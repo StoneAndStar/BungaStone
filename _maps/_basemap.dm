@@ -6,8 +6,8 @@
 	#ifdef ALL_MAPS
 
 		//Debug Z Levels
-		#include "ModularFallout\maps\yuma\yuma_underground.dmm"
-		#include "ModularFallout\maps\yuma\yuma_above.dmm"
+		#include "ModularFallout\!maps\yuma\yuma_underground.dmm"
+		#include "ModularFallout\!maps\yuma\yuma_above.dmm"
 		#include "map_files\debug\runtimestation.dmm"
 
 		//Rotation maps
