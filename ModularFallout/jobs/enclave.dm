@@ -42,20 +42,11 @@
 
 //Noncombatant
 /datum/job/enclave/med
-	title = "Enclave Medic"
-	total_positions = 1
-	spawn_positions = 1
+	title = "Enclave Specialist"
+	total_positions = 2
+	spawn_positions = 2
 	display_order = JOB_DISPLAY_ORDER_ENCLAVESPEC
-	outfit = /datum/outfit/job/enclave/med
-
-
-/datum/job/enclave/sap
-	title = "Enclave Sapper"
-	total_positions = 1
-	spawn_positions = 1
-	display_order = JOB_DISPLAY_ORDER_ENCLAVESPEC
-	outfit = /datum/outfit/job/enclave/sap
-
+	outfit = /datum/outfit/job/enclave/spec
 
 /datum/job/enclave/sci
 	title = "Enclave Scientist"
