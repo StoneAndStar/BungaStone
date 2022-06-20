@@ -68,10 +68,9 @@ GLOBAL_LIST_INIT(brotherhood_positions, list(
 
 GLOBAL_LIST_INIT(enclave_positions, list(
 	"Enclave Lieutenant",
-	"Enclave Gny Sergeant",
+	"Enclave Gunnery Sergeant",
 	"Enclave Sergeant",
-	"Enclave Sapper",
-	"Enclave Medic",
+	"Enclave Specialist",
 	"Enclave Private",
 	"Enclave Scientist",
 ))

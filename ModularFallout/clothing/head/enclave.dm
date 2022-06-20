@@ -2,8 +2,8 @@
 	armor = list(MELEE = 35, BULLET = 25, LASER = 35, ENERGY = 25, BOMB = 10, BIO = 35, RAD = 50, FIRE = 30, ACID = 50, WOUND = 20)
 
 /obj/item/clothing/head/fallout/enclave/sergeant
-	name = "basic power armor helmet"
-	desc = "the basic power armor helmet."
+	name = "enclave combat armor helmet."
+	desc = "Standard issue combat helmets used by the Enclave."
 	icon_state = "remnant_helmet"
 	flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH
 	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEHAIR|HIDESNOUT
