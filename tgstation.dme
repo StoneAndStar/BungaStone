@@ -3664,8 +3664,6 @@
 #include "ModularFallout\!Defines\factions.dm"
 #include "ModularFallout\!Defines\jobs.dm"
 #include "ModularFallout\!Defines\projectile.dm"
-#include "ModularFallout\!maps\yuma\yuma_above.dmm"
-#include "ModularFallout\!maps\yuma\yuma_underground.dmm"
 #include "ModularFallout\clothing\apron.dm"
 #include "ModularFallout\clothing\backpack.dm"
 #include "ModularFallout\clothing\belt.dm"

@@ -935,6 +935,12 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 				if(job.maptype == "none")
 					continue
 
+			if (job.spawn_positions == 0)
+				continue
+
+			if (job.total_positions == 0)
+				continue
+
 			index += 1
 			if((index >= limit) || (job.title in splitJobs))
 				width += widthPerColumn
